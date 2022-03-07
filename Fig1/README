@@ -1,0 +1,5 @@
+Here, we report all the code to generate Fig 1.
+
+The simulation directory contains all code related to the simulation of trees and alignments.
+The inference directory contains all code related to inferring parameters of interest from the alignments.
+The analysis directory contains all code related to analysing the inference results and generating the plots.

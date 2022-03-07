@@ -1,0 +1,8 @@
+
+#trueTrees
+1. Extract true trees from dream challenge tsv file (generate_true_trees.R), scale the branch lengths in hours and save them as newick files
+2. Each internal node from intMEMOIR dataset represents a 15min (0.25 h) interval. Add 7.5 min to incoming branch and 7.5 min to outgoing branches, effectively placing the true node height in the center of this time interval. (addNodeTimeToTrueTrees.R).  
+3. Manually check that trees are ultrametric. If not, this is a result of a cell dying (and hence a missing node time interval in the ground truth dataset). We add the minimal number of branch length extensions, s.t. the trees are ultrametric. (These trees are then in ../dat/trueTrees/trueTreesCenteredNodeHeights/manualCorrection/)
+
+2. Extract tip states (ie. alignment) from true trees (correctTipStatesFromTrueTrees.R)
+3. 

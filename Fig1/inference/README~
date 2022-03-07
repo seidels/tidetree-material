@@ -1,0 +1,4 @@
+Apply TiDeTree to each alignment to infer the scarring rates, birth rate and sampling proportion.
+
+run.sh runs the inference for all alignments
+realistic_inference_1type.xml is the xml that is supplied to TiDeTree

@@ -1,0 +1,6 @@
+The code in this directory draws 1000 simulation parameters from the respective prior distributions. For each parameter set, a phylogeny and an alignment is simulated using TiDeTree.
+
+The files perform the following functions:
+- run.sh runs the entire simulation
+- draw_simulation_params.R generates 1000 simulation parameter sets
+- realistic_simulation_1type.xml is the xml file that is used by TiDeTree to run the simulations

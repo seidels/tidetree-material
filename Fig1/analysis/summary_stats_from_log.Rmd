@@ -1,0 +1,503 @@
+---
+title: "validationAnalysis - "
+author: "Sophie Seidel"
+date: "1/25/2021"
+output: pdf_document
+---
+
+This is well-calibrated simulation study, where the following parameters are sampled from the prior:
+
+ - birth rate
+ - sampling proportion
+ - scarring rates
+ 
+The death rate, the origin, the time interval of scarring are fixed.
+
+For all parameters, the prior used to sample parameters from for the simulation and the prior used in the inference are identical.
+
+
+```{r setup}
+rm(list = ls())
+knitr::opts_chunk$set(echo = FALSE)
+source("scripts.R")
+source("inference_performance.R")
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+```
+
+
+```{r }
+library(tracerer)
+library(HDInterval)
+library(ggplot2)
+```
+
+```{r}
+thisAnalysis = "realistic_inference_1type"
+N = 1000
+resultsDir = "../inference/inferenceOutput/"
+simulationDir = "../simulation/simParams/"
+simulationOutputDir = "../simulation/simulationOutput"
+#simFiles = list.files(path = simulationDir, pattern = "*.csv", )
+simOutFiles = list.files(path = simulationOutputDir, pattern = "*log")
+#plotDir = "~/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/plots/"
+metricDir = "../analysis/metrics/"
+```
+
+
+
+
+```{r}
+parameters = c("treeHeight", "treeLength", "birthRate", "deathRate", "rho", paste0("scarringRate.", 1:50), "clockRate")
+nParams = length(parameters)
+exampleDat = read.csv(file = paste0(resultsDir, "realistic_inference_1type.1.log"), header = TRUE, sep = "\t")
+
+parameter_col_index_map = list(6, 7, 59, 61, 60, 8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57, 
+                               62)
+names(parameter_col_index_map) = parameters
+```
+
+```{r ouputData}
+outputDat = data.frame(matrix(nrow = N,  ncol = 3*length(parameters) + 1))
+colnames(outputDat) = c(get_sumstat_names_from_parameters(parameters), "seed")
+
+
+simParams = as.data.frame(matrix(nrow = 1000, ncol = nParams+3, data = 0))
+colnames(simParams) = c(parameters, "scarPresent", "nCells", "seed")
+
+```
+
+
+
+
+```{r }
+#load(paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
+files = list.files(resultsDir, pattern = "*.log")
+ 
+for (ctr in 1:1000){
+     # get log file and its simulation seed
+    print(ctr)
+    #exclude tree with >15000 leafs
+    if(ctr == 874){
+    next()
+    }
+    #file = files[ctr]
+    #seed = get_seed_from_file_name(file)
+
+    seed = ctr  
+    # parse beast log and save summary stats in output data frame
+    # log =  parse_beast_tracelog_file(paste(resultsDir, file, sep = "/"))
+    # log[, c(8:57)] = log[, c(8:57)] * log[, 62] # multiply scarring rates with clock rate
+    # outputDat[ctr, 1:(nParams*3)] = get_summary_stats_from_log(log,parameter_col_index_map =parameter_col_index_map)
+    # outputDat[ctr, "seed"] = seed
+    
+    # parse simulation files and save true simulation params in simParams data frame
+  simFile =  paste0(simulationDir, "simParams_", seed, ".csv" ) #simFiles[f]
+  simParams[ctr, c(paste0("scarringRate.", 1:50),  "clockRate", "birthRate", "deathRate", "rho")] =
+    get_simulation_params_from_file(simFile) 
+  alignment = paste0(simulationOutputDir, "/realistic_simulation_1type.", seed, ".alignment.nexus")
+  simParams[ctr, "scarPresent"] = scar_present(alignment)
+  simParams[ctr, "nCells"] = as.numeric(get_ntaxa(alignment))
+
+  simLog = paste0(simulationOutputDir, 
+  "/realistic_simulation_1type.", seed,   ".log")
+  simParams[ctr, c("treeHeight", "treeLength")] = get_tree_params_from_sim_log(simLog)
+  simParams[ctr, "seed"] = seed
+  
+}
+outputDat = outputDat[order(as.numeric(outputDat$seed)), ]
+outputDat$seed = as.numeric(outputDat$seed)
+simParams = simParams[order(as.numeric(simParams$seed)), ]
+
+save(outputDat, file = paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
+simParams[, 6:55] = simParams[, 6:55] * simParams[, 56] # multiply scarring rates with clock rate
+save(simParams, file = paste(resultsDir, thisAnalysis, "_simParams.Rdat", sep = ""))
+```
+
+
+```{r}
+load(file = paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
+load(file = paste(resultsDir, thisAnalysis, "_simParams.Rdat", sep = ""))
+```
+
+```{r}
+exclude_seeds = c()
+outputDat_cleaned = outputDat[which(!(outputDat$seed %in% exclude_seeds)), ]
+simParams_cleaned = simParams[which(!(simParams$seed %in% exclude_seeds)), ]
+simParams_cleaned = simParams_cleaned[which(simParams_cleaned$seed %in% outputDat_cleaned$seed), ]
+
+#remove chains that have not run
+outputDat_cleaned = outputDat_cleaned[which(outputDat_cleaned$treeHeight_lower != -1), ]
+outputDat_cleaned = unique(outputDat_cleaned)
+simParams_cleaned = simParams_cleaned[which(simParams_cleaned$treeHeight != -1), ]
+```
+
+
+#check which chains have converged
+```{r}
+seeds = outputDat_cleaned$seed
+max(simParams[which(simParams$seed %in% seeds), "nCells"])
+notConverged = simParams[which(!(simParams$seed %in% seeds)), ]
+notConverged = notConverged[2:nrow(notConverged), ] # remove first placeholder row
+notConverged = notConverged[order(notConverged$nCells), ]
+notConverged[1:14, c("nCells", "seed")]
+```
+
+
+```{r}
+seeds_wo_tree = simParams_cleaned[which(simParams_cleaned$treeHeight == 0), "seed"]
+# outputDat_wo_tree = outputDat_cleaned[which(outputDat_cleaned$seed %in% seeds_w_tree), ]
+# outputDat_w_tree = outputDat_cleaned[which(!(outputDat_cleaned$seed %in% seeds_w_tree)), ]
+outputDat_cleaned$wTree = "> 1 cell"
+outputDat_cleaned[which(outputDat_cleaned$seed %in% seeds_wo_tree), "wTree"] = "1 cell"
+simParams_cleaned$wTree = outputDat_cleaned$wTree
+```
+
+```{r}
+outputDat_cleaned$scarPresent = simParams_cleaned$scarPresent
+outputDat_cleaned$scar = "scar present"
+outputDat_cleaned[which(!(outputDat_cleaned$scarPresent)), "scar"] = "scar not present"
+simParams_cleaned$scar = outputDat_cleaned$scar
+#outputDat_cleaned[which(!(simParams_cleaned$scarPresent)), "scarPresent"] = "no scar present"
+#simParams_cleaned$scarPresent = outputDat_cleaned$scarPresent
+```
+
+# describe simulated data
+
+```{r}
+ggplot(simParams, aes(x=nCells))+ geom_histogram() + xlim(0,1000)
+```
+
+
+
+# Bias
+
+
+
+```{r}
+bias_all = get_bias_from_dat(outputDat = outputDat_cleaned, simParams = simParams_cleaned, parameters = parameters)
+n = nrow(outputDat_cleaned)
+meanbias = apply(X = bias_all, MARGIN = 2, function(x){mean(x)})
+sdbias = apply(X = bias_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+
+saveRDS(rbind(meanbias, sdbias), file = paste0(metricDir, "bias_all.Rds"))
+```
+
+
+```{r}
+outputDat_first100 = outputDat_cleaned[which(outputDat_cleaned$seed <= 100), ]
+simParams_first100 = simParams_cleaned[which(simParams_cleaned$seed <=100), ]
+n_f100 = nrow(outputDat_first100)
+bias_first100 = get_bias_from_dat(outputDat = outputDat_first100, simParams = simParams_first100, parameters = parameters)
+meanbias_f100 = apply(X = bias_first100, MARGIN = 2, function(x){mean(x)})
+sdbias_f100 = apply(X = bias_first100, MARGIN = 2, function(x){sd(x)/sqrt(n_f100)})
+
+saveRDS(rbind(meanbias_f100, sdbias_f100), file = paste0(metricDir, "bias.Rds"))
+```
+
+
+#RMSE
+
+
+
+```{r}
+rmse_all = get_rmse_from_dat(outputDat = outputDat_cleaned, simParams = simParams_cleaned, parameters = parameters)
+
+meanrmse = apply(X = rmse_all, MARGIN = 2, function(x){mean(x)})
+sdrmse = apply(X = rmse_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+
+saveRDS(rbind(meanrmse, sdrmse), file = paste0(metricDir, "rmse_all.Rds"))
+```
+
+```{r}
+rmse_first100 = get_rmse_from_dat(outputDat = outputDat_first100, simParams = simParams_first100, parameters = parameters)
+meanrmse_f100 = apply(X = rmse_first100, MARGIN = 2, function(x){mean(x)})
+sdrmse_f100 = apply(X = rmse_first100, MARGIN = 2, function(x){sd(x)/sqrt(n_f100)})
+saveRDS(rbind(meanrmse_f100, sdrmse_f100), file = paste0(metricDir, "rmse.Rds"))
+```
+
+#HPD
+
+
+
+```{r}
+hpd_all = get_hpd_from_dat(outputDat_cleaned, simParams_cleaned, parameters)
+meanhpd = apply(X = hpd_all, MARGIN = 2, function(x){mean(x)})
+sdhpd = apply(X = hpd_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+saveRDS(rbind(meanhpd, sdhpd), file = paste0(metricDir, "hpd_all.Rds"))
+```
+
+```{r}
+hpd_first100 = get_hpd_from_dat(outputDat_first100, simParams_first100, parameters)
+meanhpd_f100 = apply(X = hpd_first100, MARGIN = 2, function(x){mean(x)})
+sdhpd_f100 = apply(X = hpd_first100, MARGIN = 2, function(x){sd(x)/sqrt(n_f100)})
+saveRDS(rbind(meanhpd_f100, sdhpd_f100), file = paste0(metricDir, "hpd.Rds"))
+```
+
+# Coverage
+
+
+
+```{r}
+coverage_all = get_coverage_from_dat(outputDat_cleaned, simParams_cleaned, parameters)
+meancov = apply(X = coverage_all, MARGIN = 2, function(x){mean(x)})
+sdcov = apply(X = coverage_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+saveRDS(rbind(meancov, sdcov), file = paste0(metricDir, "coverage_all.Rds"))
+```
+
+```{r}
+coverage_first100 = get_coverage_from_dat(outputDat_first100, simParams_first100, parameters)
+meancov_f100 = apply(X = coverage_first100, MARGIN = 2, function(x){mean(x)})
+sdcov_f100 = apply(X = coverage_first100, MARGIN = 2, function(x){sd(x)/sqrt(n_f100)})
+saveRDS(rbind(meancov_f100, sdcov_f100), file = paste0(metricDir, "coverage.Rds"))
+```
+
+
+```{r}
+sim_s700 = simParams[which(simParams$nCells < 700), ]
+summary(sim_s700)
+```
+
+
+To enter into supp table on validation metrics. Don't report scarring rate 50 because it was fixed to 1 and don't report clock rate as we report the product of each scarring rate with the clock rate.
+```{r}
+metrics = data.frame(parameter=names(meancov), coverage = meancov, hpd= meanhpd, rmse=meanrmse, bias=meanbias)
+metrics[ ,2:5] = round(metrics[,2:5], digits = 2)
+rows = apply(metrics, 1, function(x){paste(x, collapse = " & ")})
+paste(rows, collapse = " \\")
+```
+# Quantify correlations
+
+```{r}
+combined = merge(outputDat_cleaned, simParams_cleaned, by = "seed")
+```
+
+
+Treeheight
+
+```{r}
+cor.test(combined$treeHeight, combined$treeHeight_median)
+```
+
+```{r}
+poster_width_ab16 = combined[which(combined$treeHeight >= 16), c("treeHeight_upper", "treeHeight_lower", 
+                                                                 "treeHeight_median", "treeHeight")]
+poster_width_bel16 = combined[which(combined$treeHeight < 16), c("treeHeight_upper", "treeHeight_lower", 
+                                                                 "treeHeight_median","treeHeight")]
+
+cor.test(poster_width_ab16$treeHeight_median, poster_width_ab16$treeHeight)
+cor.test(poster_width_bel16$treeHeight_median, poster_width_bel16$treeHeight)
+
+
+poster_width_ab16= mean( (poster_width_ab16$treeHeight_upper - poster_width_ab16$treeHeight_lower)/poster_width_ab16$treeHeight)
+poster_width_bel16= mean( (poster_width_bel16$treeHeight_upper - poster_width_bel16$treeHeight_lower)/poster_width_bel16$treeHeight, na.rm = T)
+
+poster_width_ab16
+poster_width_bel16
+```
+
+tree length
+
+```{r}
+cor.test(combined$treeLength_median, combined$treeLength)
+```
+
+birth rate
+```{r}
+cor.test(combined$birthRate_median, combined$birthRate)
+```
+
+rho
+```{r}
+cor.test(combined$rho, combined$rho_median)
+```
+
+
+<!-- # Posterior intervals  -->
+
+<!-- ## for tree height -->
+
+<!-- ```{r} -->
+<!-- ordering = order(simParams_cleaned$treeHeight) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p = ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=treeHeight_median)) +  -->
+<!--   #facet_grid(wTree~scar)+ -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=treeHeight_lower, ymax=treeHeight_upper), alpha=0.4) + -->
+<!--   geom_point(data = simParams_cleaned, aes(x=as.numeric(orderedSeed), y=treeHeight, size="truth"), inherit.aes = FALSE, col="darkgreen", size=0.3) + -->
+<!--   theme_minimal()+ -->
+<!--   theme()+ -->
+<!--   geom_hline(yintercept = 16, linetype = "dashed", show.legend = TRUE)+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Tree height") -->
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_treeHeight_", thisAnalysis, ".pdf"), width = 8, height = 6, units = "cm") -->
+<!-- p -->
+
+<!-- ``` -->
+
+<!-- ## for tree length -->
+
+<!-- ```{r} -->
+<!-- ordering = order(simParams_cleaned$treeLength) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p <- ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=treeLength_median)) +  -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=treeLength_lower, ymax=treeLength_upper), alpha=0.4) + -->
+<!--   geom_point(data = simParams_cleaned, aes(x=as.numeric(orderedSeed), y=treeLength, size="truth"), inherit.aes = FALSE, col="darkgreen", size=0.3) + -->
+<!--   theme_minimal()+ -->
+<!--   theme(legend.title = element_blank())+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Posterior intervals for tree length") -->
+
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_treeLength_", thisAnalysis, ".pdf")) -->
+
+<!-- p -->
+
+<!-- ``` -->
+
+<!-- ## for scarring rate 1 -->
+
+<!-- ```{r} -->
+<!-- ordering = order(simParams_cleaned$scarringRate.1) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p <- ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=scarringRate.1_median)) +  -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=scarringRate.1_lower, ymax=scarringRate.1_upper), alpha=0.4) + -->
+<!--   geom_point(data = simParams_cleaned, aes(x=as.numeric(orderedSeed), y=scarringRate.1, size="truth"), inherit.aes = FALSE, col="darkgreen", size=0.3) + -->
+<!--   theme_minimal()+ -->
+<!--   theme(legend.title = element_blank())+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Posterior intervals for scarring rate 1") -->
+
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_scarringRate1_", thisAnalysis, ".pdf")) -->
+
+<!-- p -->
+
+<!-- ``` -->
+
+
+
+<!-- ## for clock rate -->
+
+<!-- ```{r} -->
+<!-- ordering = order(simParams_cleaned$clockRate) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p <- ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=clockRate_median)) +  -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=clockRate_lower, ymax=clockRate_upper), alpha=0.4) + -->
+<!--   geom_point(data = simParams_cleaned, aes(x=as.numeric(orderedSeed), y=clockRate, size="truth"), inherit.aes = FALSE, col="darkgreen", size=0.3) + -->
+<!--   theme_minimal()+ -->
+<!--   theme(legend.title = element_blank())+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Posterior intervals for clock rate") -->
+
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_clockRate_", thisAnalysis, ".pdf")) -->
+
+<!-- p -->
+
+<!-- ``` -->
+
+<!-- ## for death rate  -->
+<!-- ```{r} -->
+<!-- ordering = order(outputDat_cleaned$deathRate_median) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p = ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=deathRate_median)) +  -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=deathRate_lower, ymax=deathRate_upper), alpha=0.4) + -->
+<!--   geom_hline(yintercept = 0.01, linetype = "dashed") + geom_hline(yintercept = 1.4, linetype = "dashed")+  -->
+<!--   geom_hline(yintercept = 0.4, col = "darkgreen")+ -->
+<!--   theme_minimal()+ -->
+<!--   theme(legend.title = element_blank())+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Posterior intervals for death rate") -->
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_deathRate_", thisAnalysis, ".pdf")) -->
+<!-- p -->
+<!-- ``` -->
+<!-- ## for rho -->
+
+
+<!-- ```{r} -->
+<!-- ordering = order(simParams_cleaned$rho) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p = ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=rho_median)) +  -->
+<!--   facet_grid(wTree~scar)+ -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=rho_lower, ymax=rho_upper), alpha=0.4) + -->
+<!--   geom_point(data = simParams_cleaned, aes(x=as.numeric(orderedSeed), y=rho, size="truth"), inherit.aes = FALSE, col="darkgreen") + -->
+<!--   theme_minimal()+ -->
+<!--   theme(legend.title = element_blank())+ -->
+<!--   geom_hline(yintercept = 0.006)+ -->
+<!--   geom_hline(yintercept = 0.31)+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Posterior intervals for rho") -->
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_rho_", thisAnalysis, ".pdf")) -->
+<!-- p -->
+<!-- ``` -->
+
+<!-- ## for birth rate -->
+
+<!-- ```{r} -->
+<!-- ordering = order(simParams_cleaned$birthRate) -->
+<!-- simParams_cleaned = simParams_cleaned[ordering, ] -->
+<!-- simParams_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- outputDat_cleaned = outputDat_cleaned[ordering, ] -->
+<!-- outputDat_cleaned$orderedSeed = 1:nrow(outputDat_cleaned) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- birthRatePrior = rlnorm(n = 10000, meanlog = -0.6, sdlog = 0.1) -->
+<!-- quantiles_br = quantile(birthRatePrior, c(0.05, 0.95)) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- p = ggplot(data = outputDat_cleaned, aes(x=as.numeric(orderedSeed), y=birthRate_median)) +  -->
+<!--   facet_grid(wTree~scar)+ -->
+<!--   geom_point() + -->
+<!--   geom_errorbar(aes(ymin=birthRate_lower, ymax=birthRate_upper), alpha=0.4) + -->
+<!--   geom_point(data = simParams_cleaned, aes(x=as.numeric(orderedSeed), y=birthRate, size="truth"), inherit.aes = FALSE, col="darkgreen", size =0.3) + -->
+<!--   theme_minimal()+ -->
+<!--   geom_hline(yintercept = quantiles_br[1])+ -->
+<!--   geom_hline(yintercept = quantiles_br[2]) + -->
+<!--   theme(legend.title = element_blank())+ -->
+<!--   xlab("Ordered simulation number")+ -->
+<!--   ylab("Posterior intervals for birth rate") -->
+<!-- ggsave(plot = p, filename = paste0(plotDir, "/posteriorIntervals_birthRate_", thisAnalysis, ".pdf")) -->
+<!-- p -->
+<!-- ``` -->
+
+

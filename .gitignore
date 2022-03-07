@@ -1,0 +1,10 @@
+**/*.log
+**/*.nexus
+**/*.trees
+**/*.tree
+**/*data.txt
+**/*.newick
+**/*.newick~
+
+Fig1/simulation/simParams/*.csv
+.DS_Store

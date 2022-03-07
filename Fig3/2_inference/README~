@@ -1,0 +1,2 @@
+In the inference_logs directory, there are the inference xmls, the parameter and tree logs.
+In the treecmpScores directory, the topology scores (RF and triplet) computed by TreeCmp are located.

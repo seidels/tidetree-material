@@ -1,0 +1,11 @@
+#draw simulation parameters
+for seed in `seq 1 1000`; do Rscript draw_simulation_params.R $seed realistic_simulation
+done                                          
+
+# run simulation
+for seed in `seq 1 1000`
+do
+rho=$(cat ~/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/simParams/realistic_simulation/simParams_${seed}.csv| cut -d , -f54 | tail -1)
+echo $rho
+java -jar $HOME/frameworks/new_beasts/out/artifacts_originInfSim_rejectHLO_varScarHeight/new_beasts_jar/origin_varScarHeight.jar -overwrite -seed ${seed} -D rho=${rho},seqLength=10,outputDir="/Users/seidels/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/simulationOutput/realistic_simulation/" realistic_simulation_1type.xml
+done

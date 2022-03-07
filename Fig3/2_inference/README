@@ -1,0 +1,2 @@
+In the inference_logs directory, there are the inference xmls, the parameter and tree logs for the unsupervised scenario and the scenario where additional information on the scarring dyamics was used. A script to perform direct post-processing on the logs is located within each scenario subdirectory.
+In the treecmpScores directory, the topology scores (RF and triplet) computed by TreeCmp are located.

@@ -1,0 +1,210 @@
+---
+title: "validationAnalysis - baseline "
+author: "Sophie Seidel"
+date: "1/25/2021"
+output: pdf_document
+---
+
+
+```{r setup}
+rm(list = ls())
+knitr::opts_chunk$set(echo = FALSE)
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+```
+
+
+```{r }
+library(tracerer)
+library(HDInterval)
+library(ggplot2)
+source("../../Fig1/analysis/inference_performance.R")
+source("../../Fig1/analysis/scripts.R")
+```
+
+```{r}
+thisAnalysis = "baseline"
+N = 100
+resultsDir = "../inference/inferenceOutput/baseline/"
+simulationOutputDir = "../simulation/simulationOutput/"
+simOutFiles = list.files(path = simulationOutputDir, pattern = "*log")
+plotDir = "..//plots/"
+metricDir = paste0("../metrics/", thisAnalysis, "/")
+```
+
+
+```{r}
+parameters = c("treeHeight", "treeLength", "birthRate", "deathRate", "rho", paste0("scarringRate.", 1:50), 
+               "clockRate", "growthRate", "turnover")
+nParams = length(parameters)
+exampleDat = read.csv(file = paste0(resultsDir, thisAnalysis, ".100.log"), header = TRUE, sep = "\t")
+
+parameter_col_index_map = list(6, 7, 59, 61, 60, 8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57, 
+                               62, 63, 64)
+names(parameter_col_index_map) = parameters
+```
+
+```{r ouputData}
+outputDat = data.frame(matrix(nrow = N,  ncol = 3*length(parameters) + 1))
+colnames(outputDat) = c(get_sumstat_names_from_parameters(parameters), "seed")
+
+
+simParams = as.data.frame(matrix(nrow = N, ncol = nParams+3, data = 0))
+colnames(simParams) = c(parameters, "scarPresent", "nCells", "seed")
+```
+
+True simulation values
+
+```{r}
+simParams[, startsWith(colnames(simParams), "scarring")] = rep(c(0.38, 0.59, 0.07, 0.07, 0.22, 1.45, 0.61, 0.27, 0.48, 0.07, 0.7, 0.38,
+                                                              0.62, 2.21, 0.53, 0.52, 0.94, 0.33, 0.17, 0.29, 1.18, 0.32, 0.15, 0.28,
+                                                              0.05, 0.03, 0.29, 1.98, 0.59, 0.5, 0.72, 0.02, 0.16, 0.66, 0.1, 0.51,
+                                                              0.15, 0.36, 0.38, 0.12, 0.54, 0.51, 0.65, 0.63, 0.28, 0.15, 0.65, 0.5, 0.26, 1), 
+                                                              each=N)
+simParams$birthRate = 0.18
+simParams$deathRate = 0.03
+simParams$rho = 0.5
+simParams$clockRate = 0.0012
+simParams$growthRate = simParams$birthRate - simParams$deathRate
+simParams$turnover = simParams$deathRate / simParams$birthRate
+```
+
+
+This is the relation between seed and combinedSeed. 
+
+100 seed from 1, 2, ..., 100
+
+However, in scenario C we need 10 alignments per seed. Hence for scenarios A and B, we just add a 0 to out seed resulting in:
+100 seeds from 1, 2, ..., 100
+and
+100 combined seeds from 10, 20, 30, ..., 1000
+
+For scenarios C we have
+100 seeds from 1, 2, ..., 100
+and 
+1000 combined seeds! Seed 1 corresponds to combined seed 10, 11, 12, 13,  ..., 19
+
+```{r }
+files = list.files(resultsDir, pattern = "log")
+ 
+for (f in 1:length(files)){
+#for (seed in seq(10, 1000, 10)){
+    #f=seed
+  
+    print(f)
+    file = files[f]
+    seed = get_seed_from_file_name(file)
+    
+    # NOTE: seed for extracint inference info
+    log =  parse_beast_log(paste(resultsDir, file, sep = "/"))
+    log$growthRate = log$birthRate - log$deathRate
+    log$turnover = log$deathRate / log$birthRate
+    #log[, c(8:57)] = log[, c(8:57)] * log[, 62] # combined rate
+    outputDat[f, 1:(nParams*3)] = get_summary_stats_from_log(log, parameter_col_index_map =parameter_col_index_map)
+    outputDat[f, "seed"] = seed
+    
+    # NOTE: combinedSeed for collecing simulation info!
+    combinedSeed = as.numeric(paste0(seed, 0))
+    alignment = paste0(simulationOutputDir, "simulateInputTrees.", combinedSeed, ".alignment.nexus")
+    simParams[f, "scarPresent"] = scar_present(alignment)
+    simParams[f, "nCells"] = as.numeric(get_ntaxa(alignment))
+
+    simLog = paste0(simulationOutputDir,  "simulateInputTrees.", combinedSeed,   ".log")
+    simParams[f, c("treeHeight", "treeLength")] = get_tree_params_from_sim_log(simLog)
+    simParams[f, "seed"] = seed
+  
+}
+outputDat = outputDat[order(as.numeric(outputDat$seed)), ]
+outputDat$seed = as.numeric(outputDat$seed)
+simParams = simParams[order(as.numeric(simParams$seed)), ]
+save(outputDat, file = paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
+save(simParams, file = paste(resultsDir, thisAnalysis, "_simParams.Rdat", sep = ""))
+```
+
+
+```{r}
+load(file = paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
+load(file = paste(resultsDir, thisAnalysis, "_simParams.Rdat", sep = ""))
+```
+
+```{r}
+exclude_seeds = c()
+outputDat_cleaned = outputDat[which(!(outputDat$seed %in% exclude_seeds)), ]
+simParams_cleaned = simParams[which(!(simParams$seed %in% exclude_seeds)), ]
+simParams_cleaned = simParams_cleaned[which(simParams_cleaned$seed %in% outputDat_cleaned$seed), ]
+
+#remove chains that have not run
+outputDat_cleaned = outputDat_cleaned[which(outputDat_cleaned$treeHeight_lower != -1), ]
+outputDat_cleaned = unique(outputDat_cleaned)
+simParams_cleaned = simParams_cleaned[which(simParams_cleaned$treeHeight != -1), ]
+simParams_cleaned = unique(simParams_cleaned)
+```
+
+
+
+
+
+# describe simulated data
+
+```{r}
+ggplot(simParams, aes(x=nCells))+ geom_histogram() + xlim(0,1000)
+```
+
+
+
+# Bias
+
+
+
+```{r}
+bias_all = get_bias_from_dat(outputDat = outputDat_cleaned, simParams = simParams_cleaned, parameters = parameters)
+n = nrow(outputDat_cleaned)
+meanbias = apply(X = bias_all, MARGIN = 2, function(x){mean(x)})
+sdbias = apply(X = bias_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+#sdbias = apply(X = bias_all, MARGIN = 2, function(x){sd(x)})
+
+saveRDS(rbind(meanbias, sdbias), file = paste0(metricDir, "bias.Rds"))
+```
+
+
+
+#RMSE
+
+
+
+```{r}
+rmse_all = get_rmse_from_dat(outputDat = outputDat_cleaned, simParams = simParams_cleaned, parameters = parameters)
+
+meanrmse = apply(X = rmse_all, MARGIN = 2, function(x){mean(x)})
+sdrmse = apply(X = rmse_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+#sdrmse = apply(X = rmse_all, MARGIN = 2, function(x){sd(x)})
+
+
+saveRDS(rbind(meanrmse, sdrmse), file = paste0(metricDir, "rmse.Rds"))
+```
+
+
+#HPD
+
+
+
+```{r}
+hpd_all = get_hpd_from_dat(outputDat_cleaned, simParams_cleaned, parameters)
+meanhpd = apply(X = hpd_all, MARGIN = 2, function(x){mean(x)})
+sdhpd = apply(X = hpd_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+#sdhpd = apply(X = hpd_all, MARGIN = 2, function(x){sd(x)})
+
+saveRDS(rbind(meanhpd, sdhpd), file = paste0(metricDir, "hpd.Rds"))
+```
+
+
+# Coverage
+
+```{r}
+coverage_all = get_coverage_from_dat(outputDat_cleaned, simParams_cleaned, parameters)
+meancov = apply(X = coverage_all, MARGIN = 2, function(x){mean(x)})
+sdcov = apply(X = coverage_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
+#sdcov = apply(X = coverage_all, MARGIN = 2, function(x){sd(x)})
+
+saveRDS(rbind(meancov, sdcov), file = paste0(metricDir, "coverage.Rds"))
+```
+

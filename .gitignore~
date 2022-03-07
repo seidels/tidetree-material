@@ -1,0 +1,8 @@
+**/*.log
+**/*.nexus
+**/*.trees
+**/*.tree
+**/*.data.txt
+**/*.newick
+
+Fig1/simulation/simParams/*.csv

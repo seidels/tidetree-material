@@ -1,0 +1,5 @@
+Here, we analyse the inference logs and generate the subfigures A-D from Fig 1.
+
+In summary_stats_from_log.Rmd, we compute the 95% highest posterior density (HPD) interval and the posterior median for all parameters of interest. We further compute the coverage, 95% HPD width, root mean square error and bias. The files inference_performance.R and scripts.R provide helper functions to this end.
+
+In create_calibration_figures.R we create the subplots A-D from Fig 1.

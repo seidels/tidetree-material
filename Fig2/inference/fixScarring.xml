@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='MultiTypeBirthDeath' beautistatus='' namespace="lineageTree.substitutionmodel.ScarringLoss:beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+<!-- dataType has to be set to integer and the value must contain a ',' s.t. the class recognizes it as a comma separated string of integers-->
+
+  <data  id="alignment_1" spec="feast.fileio.AlignmentFromNexus" name="alignment" fileName="$(input_alignment_1)">
+    <userDataType spec="beast.evolution.datatype.ScarData" nrOfStates="52" />
+    </data>
+
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+<plate var="n" range="1">
+  <traitSet id="dateTrait.t:h3n2_2deme_$(n)"
+              spec="beast.evolution.tree.TraitSet"
+              taxa="@TaxonSet.$(n)" traitname="date-forward" value="0=32"
+	      />
+</plate>
+
+<plate var="n" range="1">
+    <taxa id="TaxonSet.$(n)" spec="TaxonSet">
+        <alignment idref="alignment_$(n)"/>
+    </taxa> 
+</plate>
+
+<run id="mcmc" spec="MCMC" chainLength="1000000000">
+    <state id="state" spec="State" storeEvery="5000">
+        <!-- define state node -->
+	<plate var="n" range="1">
+          <stateNode id="Tree.t:h3n2_2deme_$(n)"
+		     spec="lineageTree.tree.startingTree"
+		     rootHeight="25.0" 
+                     taxa="@alignment_$(n)" scarringHeight="25" scarringDuration="16"
+                     sequencesAreClustered="false" >
+	    <trait idref="dateTrait.t:h3n2_2deme_$(n)"/>
+            <taxonset idref="TaxonSet.$(n)"/>
+          </stateNode>
+	</plate>
+
+
+        <parameter id="scarringRate" spec="parameter.RealParameter"
+		   dimension="1" lower="0.0" name="stateNode"
+		   upper="1000">
+	  0.38 0.59 0.07 0.07 0.22 1.45 0.61 0.27 0.48 0.07 0.7 0.38
+	  0.62 2.21 0.53 0.52 0.94 0.33 0.17 0.29 1.18 0.32 0.15 0.28
+	  0.05 0.03 0.29 1.98 0.59 0.5 0.72 0.02 0.16 0.66 0.1 0.51
+	  0.15 0.36 0.38 0.12 0.54 0.51 0.65 0.63 0.28 0.15 0.65 0.5 0.26 1
+	</parameter>
+	
+        <parameter id="lossRate" spec="parameter.RealParameter"
+		   dimension="1" lower="0.0" name="stateNode"
+		   upper="1000"> 0 </parameter>
+
+	<parameter id="clockRate" spec="parameter.RealParameter"
+			   dimension="1" lower="0.0" name="stateNode"
+			   upper="1000"> 0.0012 </parameter>
+
+        <parameter id="birthRate" spec="parameter.RealParameter" dimension="1" lower="0.0" name="stateNode" upper="Infinity">0.5</parameter>
+        <parameter id="deathRate" spec="parameter.RealParameter" dimension="1" lower="0.0" name="stateNode" upper="Infinity">0.4</parameter>
+        <parameter id="samplingRate" spec="parameter.RealParameter"
+		   dimension="1" lower="0.0" name="stateNode"
+		   upper="1.0">0.0</parameter>
+	<!--fix origin to experiment duration, e.g. 32. 32.0001 is
+	    chosen because the starting tree class sets the tree
+	    height to 32.0 and the origin has to be > than the tree heigth -->
+        <parameter id="origin_BDSKY_Contemp.t:input_alignment" spec="parameter.RealParameter" lower="32.0" name="stateNode" upper="32.0001">32</parameter>
+        <parameter id="rho_BDSKY_Contemp.t:input_alignment" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="freqParameter.s:h3n2_2deme" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+
+
+    <!--init id="RandomTree.t:h3n2" spec="lineageTree.tree.startingTree" initial="@Tree.t:h3n2_2deme"
+          rootHeight="32.0" taxa="@alignment_1" scarringHeight="25" nClusters="109">
+    </init-->
+
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <!-- tree prior -->
+        <distribution id="prior" spec="util.CompoundDistribution" useThreads='true'>
+	  <plate var="n" range="1">
+            <distribution id="birthDeathMigration.t:h3n2_2deme_$(n)" spec="beast.evolution.speciation.BirthDeathSkylineModel"
+                          birthRate="@birthRate" deathRate="@deathRate" samplingRate="@samplingRate"
+                          contemp="true" origin="@origin_BDSKY_Contemp.t:input_alignment" rho="@rho_BDSKY_Contemp.t:input_alignment"
+                           tree="@Tree.t:h3n2_2deme_$(n)"
+			   conditionOnSurvival="true">
+            </distribution>
+	  </plate>
+
+            <!-- prior distribution on phylogenetic parameters -->
+            <prior spec="bdmmprime.util.priors.SmartZeroExcludingPrior"
+		   id="scarringRatePrior" name="distribution"
+		   x="@scarringRate">
+                <Exponential name="distr">
+                    <parameter  spec="parameter.RealParameter" estimate="false" name="mean">2.0</parameter>
+                </Exponential>
+            </prior>
+
+            <!-- prior distributions on phylodynamic parameters -->
+            <prior id="birthRatePrior" name="distribution" x="@birthRate">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="M">-1.5</parameter>
+                    <parameter id="RealParameter.16" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="20.0">0.5</parameter>
+                </LogNormal>
+            </prior>
+	    <prior id="deathRatePrior" name="distribution" x="@deathRate">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="M">-3.5</parameter>
+                    <parameter id="RealParameter.16" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="20.0">0.5</parameter>
+                </LogNormal>
+            </prior>
+
+
+            <prior id="ClockPrior.c:h3n2_2deme" name="distribution" x="@clockRate">
+                <LogNormal name="distr" M="-7" S="0.5"/>
+            </prior>
+            <prior id="rhoPrior_BDSKY_Contemp.t:input_alignment" name="distribution" x="@rho_BDSKY_Contemp.t:input_alignment">
+                <Beta  name="distr">
+                    <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">4</parameter>
+                    <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">8</parameter>
+                </Beta>
+            </prior>
+        </distribution>
+        <!-- Tree likelihood -->
+          <distribution id="likelihood"
+			spec="util.CompoundDistribution" useThreads='true'>
+	    <plate var="n" range="1">
+              <distribution id="treeLikelihood.h3n2_2deme_$(n)"
+			    spec="lineageTree.distributions.organoidTreeLikelihood"
+			    data="@alignment_$(n)" tree="@Tree.t:h3n2_2deme_$(n)"
+			    origin="@origin_BDSKY_Contemp.t:input_alignment">
+		<siteModel spec="SiteModel">
+                  <mutationRate idref="clockRate"/>
+                  <parameter spec="parameter.RealParameter"
+			     estimate="false" lower="0.0"
+			     name="proportionInvariant"
+			     upper="1.0">0.0
+		  </parameter>
+                  <substModel spec="lineageTree.substitutionmodel.GeneralScarringLoss" scarringRates="@scarringRate" lossRate="@lossRate"
+			      scarringHeight="32" scarringDuration="16">
+                    <frequencies spec="beast.evolution.substitutionmodel.Frequencies" frequencies="1.0 0 0" estimate="false"/>
+                  </substModel>
+		</siteModel>
+		<branchRateModel spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="1.0"/>
+              </distribution>
+	    </plate>
+          </distribution>
+    </distribution>
+
+    <!-- tree operators-->
+    <plate var="n" range="1">
+      <operator id="treeWB_$(n)" spec="WilsonBalding"
+		tree="@Tree.t:h3n2_2deme_$(n)" weight="30.0"/>
+
+      <operator id="Unif_$(n)" spec="Uniform" tree="@Tree.t:h3n2_2deme_$(n)" weight="3.0"/>
+
+      <operator id="SubtreeSlideOperator_$(n)" spec="SubtreeSlide" tree="@Tree.t:h3n2_2deme_$(n)" weight="3.0"/>
+      <operator id="BDSKY_ContempWide_$(n)" spec="Exchange" isNarrow="false" tree="@Tree.t:h3n2_2deme_$(n)" weight="30.0"/>
+      <operator id="rootScaler_$(n)" spec="ScaleOperator" weight="3"
+		tree="@Tree.t:h3n2_2deme_$(n)" rootOnly="true" />
+
+    </plate>
+
+
+    <!-- <operator id="updown_rho_tree_all_birth" spec="UpDownOperator" -->
+    <!-- 	      weight="20.0" scaleFactor="0.8"> -->
+    <!--   <up idref="rho_BDSKY_Contemp.t:input_alignment"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_1"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_2"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_3"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_4"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_5"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_6"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_7"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_8"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_9"/> -->
+    <!--   <down idref="Tree.t:h3n2_2deme_10"/> -->
+    <!--   <down idref="birthRate"/> -->
+    <!-- </operator> -->
+
+       
+    <!-- Phylodynamic operators -->
+    <operator id="birthRateScaler" spec="ScaleOperator" parameter="@birthRate" scaleFactor="0.7" weight="3.0"/>
+    <operator id="deathRateScaler" spec="ScaleOperator" optimise="false" parameter="@deathRate" scaleAll="true" scaleFactor="0.9" weight="3.0"/>
+
+    <operator id="updownDS.t:h3n2_2deme" spec="UpDownOperator" scaleFactor="0.9" weight="3.0">
+        <up idref="birthRate"/>
+        <down idref="deathRate"/>
+    </operator>
+
+
+
+    <logger id="tracelog" spec="Logger" fileName="$(filebase).$(seed).log" logEvery="5000">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+	<plate var="n" range="1">
+          <log idref="treeLikelihood.h3n2_2deme_$(n)"/>
+          <log id="treeHeight.t:h3n2_2deme_$(n)" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:h3n2_2deme_$(n)"/>
+          <log id="treeLength.t:h3n2_2deme_$(n)"
+	       spec="multitypetree.util.TreeLengthLogger"
+	       tree="@Tree.t:h3n2_2deme_$(n)"/>
+	</plate>
+        <log idref="scarringRate"/>
+        <log idref="lossRate" />
+        <log idref="birthRate"/>
+        <log idref="rho_BDSKY_Contemp.t:input_alignment"/>
+        <log idref="deathRate"/>
+        <log idref="clockRate"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <plate var="n" range="1">
+      <logger id="treelog.t:h3n2_2deme_$(n)" spec="Logger" fileName="$(filebase).$(tree).$(seed).$(n).trees" logEvery="5000" mode="tree">
+        <log idref="Tree.t:h3n2_2deme_$(n)" printMetaData="true"/>
+      </logger>
+    </plate>
+
+</run>
+
+</beast>

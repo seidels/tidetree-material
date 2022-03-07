@@ -1,0 +1,87 @@
+
+font = "Arial"
+plotDir = "~/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/plots/"
+thisAnalysis = paste0("realistic_inference_1type")
+resultsDir = "~/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/inferenceOutput/"
+
+parameters = c("treeHeight", "treeLength", "birthRate", "deathRate", "rho", paste0("scarringRate.", 1:50), "clockRate")
+
+load(file = paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
+load(file = paste(resultsDir, thisAnalysis, "_simParams.Rdat", sep = ""))
+simParams[, 6:55] = simParams[, 6:55] * simParams[, 56] # multiply scarring rates with clock rate
+
+outputDat_cleaned = outputDat[which(!(is.na(outputDat$seed))), ]
+simParams_cleaned = simParams[which(simParams$seed %in% outputDat_cleaned$seed), ]
+
+create_plot = function(dat){
+
+  p = ggplot(data = dat, aes(x=simulated, y=inferred)) +
+          geom_point() +
+          geom_errorbar(aes(ymin = lower, ymax=upper), alpha=0.4)+
+          geom_abline(intercept = 0, slope = 1, col="darkgreen") +
+          theme_bw()+
+          ylab("Estimated median and 95% HPD interval")+
+          xlab("True value")+
+          theme(text=element_text(size = 20, family = font))
+
+  return(p)
+}
+
+
+#tree height
+treeheight = data.frame(simulated=simParams_cleaned$treeHeight, inferred=outputDat_cleaned$treeHeight_median,
+                        upper=outputDat_cleaned$treeHeight_upper, lower=outputDat_cleaned$treeHeight_lower)
+
+p_treeheight = create_plot(dat = treeheight) +
+  geom_hline(yintercept = 16, linetype="dotted") +
+  theme(panel.background = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent", color = NA))
+
+svg(filename = paste0(plotDir, "calibtrated_tree_height.svg"), bg = "transparent", family = font)
+p_treeheight
+dev.off()
+
+# tree length
+treeLength = data.frame(simulated=simParams_cleaned$treeLength, inferred=outputDat_cleaned$treeLength_median,
+                        upper=outputDat_cleaned$treeLength_upper, lower=outputDat_cleaned$treeLength_lower)
+p_treelength = create_plot(dat = treeLength)
+svg(filename = paste0(plotDir, "calibtrated_tree_length.svg"))
+p_treelength
+dev.off()
+
+#birth rate
+birthRate = data.frame(simulated=simParams_cleaned$birthRate, inferred=outputDat_cleaned$birthRate_median,
+                       upper=outputDat_cleaned$birthRate_upper, lower=outputDat_cleaned$birthRate_lower)
+
+p_birthrate = create_plot(birthRate)
+svg(filename = paste0(plotDir, "calibrated_birth_rate.svg"))
+p_birthrate
+dev.off()
+
+#sampling proportion
+rho = data.frame(simulated=simParams_cleaned$rho, inferred=outputDat_cleaned$rho_median,
+                 upper=outputDat_cleaned$rho_upper, lower=outputDat_cleaned$rho_lower)
+
+p_rho = create_plot(rho)
+svg(filename = paste0(plotDir, "calibrated_rho.svg"))
+p_rho
+dev.off()
+
+
+#scarring rates
+plotDat = data.frame(
+  simulationNr= c(1:nrow(outputDat_cleaned)),
+  simulated = simParams_cleaned$scarringRate.1,
+  inferred = outputDat_cleaned$scarringRate.1_median,
+  upper = outputDat_cleaned$scarringRate.1_upper,
+  lower = outputDat_cleaned$scarringRate.1_lower,
+  scarPresent = simParams_cleaned$scarPresent
+)
+plotDat$scarPresent = factor(plotDat$scarPresent, labels =c("Scar absent", "Scar present"))
+
+g_scars = create_plot(plotDat) +
+  facet_grid(~scarPresent)
+
+svg(filename = paste0(plotDir, "calibrated_scarring_rate.svg"), width = 16, height = 8)
+g_scars
+dev.off()

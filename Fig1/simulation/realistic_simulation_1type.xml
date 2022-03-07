@@ -1,0 +1,125 @@
+<beast version="2.0"
+       namespace="beast.core
+                 :beast.core.util
+                 :beast.core.parameter
+                 :beast.evolution.alignment
+                 :beast.evolution.likelihood
+                 :beast.evolution.tree
+                 :beast.evolution.tree.coalescent
+                 :beast.evolution.sitemodel
+                 :beast.evolution.substitutionmodel
+                 :beast.evolution.operators
+                 :beast.math.distributions
+                 :feast.simulation
+                 :bdmmprime.distribution
+                 :bdmmprime.parameterization
+                 :bdmmprime.mapping">
+
+
+  <!-- scarring and loss rates to be replaced by scarring rates from prior distribution -->
+  <parameter id="scarringRate"
+	     spec="feast.fileio.RealParameterFromXSV" 
+	     name="stateNode"
+	     fileName="/Users/seidels/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/simParams/realistic_simulation/simParams_$(seed).csv"
+	     sep="," startRow="1" rowCount="1"
+	     startCol="0" colCount="50" /> 
+
+    <parameter id="clockRate"
+	     spec="feast.fileio.RealParameterFromXSV" 
+	     name="stateNode"
+	     fileName="/Users/seidels/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/simParams/realistic_simulation/simParams_$(seed).csv"
+	     sep="," startRow="1" rowCount="1"
+	     startCol="50" colCount="1" /> 
+
+  <parameter id="lossRate" spec="beast.core.parameter.RealParameter"
+	     lower="0.0" name="stateNode" upper="1000">
+  0 </parameter> 
+
+
+  <run spec="GPSimulator" nSims="1">
+
+  <simulationObject spec="bdmmprime.trajectories.simulation.SimulatedTree"
+                 id="simulatedTree" treeFileName="$(outputDir)/$(filebase).$(seed).newick"
+                 minSamples="1" simulateUntypedTree="True">
+
+    <parameterization spec="CanonicalParameterization">
+      <origin id="origin" spec="RealParameter" value="32"/> <!-- Length of simulation -->
+      <typeSet id="typeSet" spec="bdmmprime.parameterization.TypeSet" value="0"/>
+
+      <!-- Fix phylodynamic parameters -->
+      <birthRate spec="SkylineVectorParameter" typeSet="@typeSet">
+	  <skylineValues id="birthRate_ins"
+	     spec="feast.fileio.RealParameterFromXSV" 
+	     fileName="/Users/seidels/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/simParams/realistic_simulation/simParams_$(seed).csv"
+	     sep="," startRow="1" rowCount="1"
+	     startCol="51" colCount="1" /> 
+      </birthRate>
+      
+      <deathRate spec="SkylineVectorParameter" typeSet="@typeSet">
+	
+	<skylineValues id="deathRate_ins"
+	     spec="feast.fileio.RealParameterFromXSV" 
+	     fileName="/Users/seidels/Projects/trees-in-devBio/results/packageDev/inSilicoValidation/fixPhylodynamicParams/simParams/realistic_simulation/simParams_$(seed).csv"
+	     sep="," startRow="1" rowCount="1"
+	     startCol="52" colCount="1" /> 
+      </deathRate>
+
+      <!-- no sampling through time, only at present -->
+      <samplingRate spec="SkylineVectorParameter" typeSet="@typeSet">
+        <skylineValues spec="RealParameter" value="0.0"/>
+      </samplingRate>
+      
+      <rhoSampling spec="TimedParameter" typeSet="@typeSet"
+		   times="32" timesAreAges="False" values="$(rho)" origin="@origin"/>
+
+      <removalProb spec="SkylineVectorParameter" typeSet="@typeSet">
+        <skylineValues spec="RealParameter" value="1.0"/>
+      </removalProb>
+      
+      <!--migrationRate spec="SkylineMatrixParameter" typeSet="@typeSet">
+        <skylineValues spec="RealParameter" value="0.5"/>
+      </migrationRate-->
+    </parameterization>
+
+      <finalSampleOffset id="finalSampleOffset" spec="RealParameter" value="0"/> <!-- Will be set by simulation -->
+    <frequencies spec="RealParameter" value="1.0"/>
+  </simulationObject>
+
+
+    <simulationObject id="seqAlign" spec="lineageTree.simulation.SimulatedAlignment"
+		      outputFileName="$(outputDir)/$(filebase).$(seed).alignment.nexus"
+		      sequenceLength="$(seqLength)" tree="@simulatedTree" origin="@origin">
+      <userDataType spec="beast.evolution.datatype.ScarData" nrOfStates="52"/>
+
+      <siteModel spec="beast.evolution.sitemodel.SiteModel">
+        <mutationRate idref="clockRate"/>
+        <substModel id="scarringModel" spec="lineageTree.substitutionmodel.GeneralScarringLoss" scarringRates="@scarringRate" lossRate="@lossRate"
+                    scarringHeight="32" scarringDuration="16">
+          <frequencies id="freq" spec="beast.evolution.substitutionmodel.Frequencies" frequencies="1.0 0 0" estimate="false"/>
+        </substModel>
+      </siteModel>
+      <branchRateModel id="StrictClock.c:h3n2_2deme" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="1.0"/>
+
+    </simulationObject>
+
+    <logger spec="Logger" logEvery="1">
+      <log idref="finalSampleOffset"/>
+      <log idref="treeStat"/>
+    </logger>
+
+    <logger spec="Logger" logEvery="1" fileName="$(outputDir)/$(filebase).$(seed).log">
+      <log idref="finalSampleOffset"/>
+      <log id="treeStat" spec="beast.evolution.tree.TreeStatLogger" tree="@simulatedTree"/>
+    </logger>
+
+    <logger spec="Logger" mode="tree" logEvery="1" fileName="$(outputDir)/$(filebase).$(seed).trees">
+      <log idref="simulatedTree"/>
+    </logger>
+
+    <!-- <logger spec="Logger" logEvery="1" fileName="$(filebase).$(seed).traj"> -->
+    <!--   <log id="trajectory" spec="bdmmprime.trajectories.simulation.SimulatedTrajectoryLogger"> -->
+    <!--     <simulatedTree idref="simulatedTree"/> -->
+    <!--   </log> -->
+    <!-- </logger> -->
+  </run>
+</beast>

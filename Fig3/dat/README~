@@ -1,0 +1,4 @@
+The data were downloaded from:
+dreamChallengeDat.tsv: is Table S1 from the DREAM challenge paper (https://doi.org/10.1016/j.cels.2021.05.008)
+groundTruthNewick.csv: belongs to the original intMEMOIR publication (DOI: 10.1126/science.abb3099); downloaded from https://data.caltech.edu/records/1444. There it is within Fig 3/Fig3DandH/
+abb3099_table_s2_csv: is Supp. Table 2 from the original intMEMOIR publication DOI: 10.1126/science.abb3099

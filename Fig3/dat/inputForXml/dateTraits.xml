@@ -1,0 +1,212 @@
+<traitSet id="s1_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s1_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s1_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s1_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54"/>
+<traitSet id="s10_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s10_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s10_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s10_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54"/>
+<traitSet id="s10_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s10_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54"/>
+<traitSet id="s10_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s10_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s10_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s10_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s11_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s11_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54"/>
+<traitSet id="s12_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s12_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54"/>
+<traitSet id="s12_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s12_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54"/>
+<traitSet id="s12_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s12_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54"/>
+<traitSet id="s12_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s12_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54"/>
+<traitSet id="s13_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s13_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54,28=54,29=54,30=54,31=54,32=54,33=54,34=54,35=54,36=54,37=54,38=54,39=54"/>
+<traitSet id="s13_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s13_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54"/>
+<traitSet id="s13_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s13_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s13_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s13_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54"/>
+<traitSet id="s14_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s14_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54"/>
+<traitSet id="s14_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s14_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s14_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s14_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54"/>
+<traitSet id="s14_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s14_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54"/>
+<traitSet id="s14_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s14_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54"/>
+<traitSet id="s15_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54"/>
+<traitSet id="s15_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54"/>
+<traitSet id="s15_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54"/>
+<traitSet id="s15_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54"/>
+<traitSet id="s15_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s15_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s15_c7_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c7_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54,28=54,29=54"/>
+<traitSet id="s15_c8_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s15_c8_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54"/>
+<traitSet id="s16_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54"/>
+<traitSet id="s16_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54"/>
+<traitSet id="s16_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54"/>
+<traitSet id="s16_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s16_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s16_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54"/>
+<traitSet id="s16_c7_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c7_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s16_c8_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c8_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54"/>
+<traitSet id="s16_c9_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s16_c9_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54"/>
+<traitSet id="s17_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s17_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54"/>
+<traitSet id="s18_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s18_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54"/>
+<traitSet id="s18_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s18_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54"/>
+<traitSet id="s19_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s19_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s19_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s19_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54"/>
+<traitSet id="s19_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s19_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54"/>
+<traitSet id="s19_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s19_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54"/>
+<traitSet id="s2_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54,28=54,29=54,30=54,31=54,32=54,33=54,34=54"/>
+<traitSet id="s2_c10_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c10_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s2_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54"/>
+<traitSet id="s2_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s2_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s2_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54"/>
+<traitSet id="s2_c8_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c8_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54"/>
+<traitSet id="s2_c9_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s2_c9_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54"/>
+<traitSet id="s20_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s20_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54"/>
+<traitSet id="s20_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54"/>
+<traitSet id="s20_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s20_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54"/>
+<traitSet id="s20_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s20_c7_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s20_c7_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54"/>
+<traitSet id="s21_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s21_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54"/>
+<traitSet id="s21_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s21_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54"/>
+<traitSet id="s21_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s21_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54,28=54,29=54,30=54,31=54,32=54"/>
+<traitSet id="s21_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s21_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54"/>
+<traitSet id="s3_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s3_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s3_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s3_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s3_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s3_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54"/>
+<traitSet id="s4_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54"/>
+<traitSet id="s4_c10_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c10_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s4_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54"/>
+<traitSet id="s4_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54"/>
+<traitSet id="s4_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s4_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54"/>
+<traitSet id="s4_c7_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s4_c7_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54"/>
+<traitSet id="s5_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s5_c10_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c10_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54"/>
+<traitSet id="s5_c11_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c11_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54"/>
+<traitSet id="s5_c12_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c12_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54"/>
+<traitSet id="s5_c13_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c13_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54"/>
+<traitSet id="s5_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s5_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54"/>
+<traitSet id="s5_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s5_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54"/>
+<traitSet id="s5_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54"/>
+<traitSet id="s5_c7_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c7_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54,28=54,29=54,30=54,31=54"/>
+<traitSet id="s5_c9_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s5_c9_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54"/>
+<traitSet id="s6_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s6_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54"/>
+<traitSet id="s6_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s6_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54"/>
+<traitSet id="s6_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s6_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54"/>
+<traitSet id="s7_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s7_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54"/>
+<traitSet id="s7_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s7_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54"/>
+<traitSet id="s7_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s7_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54"/>
+<traitSet id="s7_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s7_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54"/>
+<traitSet id="s7_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s7_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54"/>
+<traitSet id="s8_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s8_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54"/>
+<traitSet id="s8_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s8_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54"/>
+<traitSet id="s8_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s8_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54"/>
+<traitSet id="s8_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s8_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54"/>
+<traitSet id="s8_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s8_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54"/>
+<traitSet id="s8_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s8_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54,27=54,28=54,29=54"/>
+<traitSet id="s9_c1_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s9_c1_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54"/>
+<traitSet id="s9_c2_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s9_c2_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54"/>
+<traitSet id="s9_c3_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s9_c3_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54,23=54,24=54,25=54,26=54"/>
+<traitSet id="s9_c4_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s9_c4_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54,17=54,18=54,19=54,20=54,21=54,22=54"/>
+<traitSet id="s9_c5_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s9_c5_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54,4=54,5=54,6=54,7=54,8=54,9=54,10=54,11=54,12=54,13=54,14=54,15=54,16=54"/>
+<traitSet id="s9_c6_data.txt_dateTrait" spec="beast.evolution.tree.TraitSet" taxa="@s9_c6_data.txt_TaxonSet" traitname="date-forward"
+value="1=54,2=54,3=54"/>

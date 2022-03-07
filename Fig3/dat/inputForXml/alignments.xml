@@ -1,0 +1,1877 @@
+<data  id="s1_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s1_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,2,0,1,1,0,1,2,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,1,0,1,2,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,1,1,0,1,2,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,1,0,1,2,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="2,2,0,1,1,0,1,1,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="2,2,0,1,2,0,1,1,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_8" spec="Sequence" taxon="7" value="1,0,1,2,2,0,2,2,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,1,2,2,0,2,2,1,0,"/>
+<sequence id="s1_c1_data.txt_cell_10" spec="Sequence" taxon="9" value="2,0,0,1,1,0,1,1,1,0,"/>
+</data>
+<data  id="s1_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s1_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="1,2,0,1,1,0,2,2,2,0,"/>
+<sequence id="s1_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="1,2,0,1,1,0,2,2,2,0,"/>
+<sequence id="s1_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="1,1,0,1,1,0,2,2,2,0,"/>
+<sequence id="s1_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,1,0,2,2,2,0,"/>
+</data>
+<data  id="s10_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s10_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,1,1,0,1,2,2,0,"/>
+<sequence id="s10_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,1,1,0,1,2,2,0,"/>
+<sequence id="s10_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,1,1,0,1,2,2,0,"/>
+<sequence id="s10_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,1,1,0,1,2,2,0,"/>
+<sequence id="s10_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,2,1,2,2,2,2,2,0,"/>
+<sequence id="s10_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,2,0,1,2,2,0,"/>
+<sequence id="s10_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,2,1,0,"/>
+<sequence id="s10_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,0,0,0,0,2,1,0,"/>
+<sequence id="s10_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s10_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s10_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s10_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,0,1,0,"/>
+</data>
+<data  id="s10_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s10_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,1,0,0,0,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,1,0,0,0,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,1,0,0,0,2,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,0,2,1,0,1,2,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,0,2,1,0,1,2,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,0,2,1,0,1,0,0,0,"/>
+<sequence id="s10_c2_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,0,2,1,0,1,0,2,0,"/>
+<sequence id="s10_c2_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s10_c2_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s10_c2_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_12" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_13" spec="Sequence" taxon="13" value="0,0,0,0,1,0,0,2,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_14" spec="Sequence" taxon="14" value="0,0,0,0,1,0,0,0,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_15" spec="Sequence" taxon="15" value="0,0,0,0,2,0,0,2,2,0,"/>
+<sequence id="s10_c2_data.txt_cell_17" spec="Sequence" taxon="16" value="1,0,0,2,1,0,1,2,0,0,"/>
+<sequence id="s10_c2_data.txt_cell_18" spec="Sequence" taxon="17" value="1,0,0,2,0,0,0,2,0,0,"/>
+<sequence id="s10_c2_data.txt_cell_19" spec="Sequence" taxon="18" value="0,0,0,2,2,0,0,1,1,0,"/>
+<sequence id="s10_c2_data.txt_cell_20" spec="Sequence" taxon="19" value="0,0,1,2,1,0,0,1,1,0,"/>
+</data>
+<data  id="s10_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s10_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_12" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s10_c3_data.txt_cell_13" spec="Sequence" taxon="10" value="1,0,0,2,1,0,0,0,0,0,"/>
+<sequence id="s10_c3_data.txt_cell_14" spec="Sequence" taxon="11" value="1,0,0,2,1,0,0,0,0,0,"/>
+<sequence id="s10_c3_data.txt_cell_15" spec="Sequence" taxon="12" value="1,0,0,0,1,0,0,0,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_16" spec="Sequence" taxon="13" value="1,0,0,0,1,0,0,0,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_17" spec="Sequence" taxon="14" value="2,2,0,0,2,0,0,1,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_18" spec="Sequence" taxon="15" value="0,0,0,0,2,0,0,1,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_19" spec="Sequence" taxon="16" value="0,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_20" spec="Sequence" taxon="17" value="0,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_21" spec="Sequence" taxon="18" value="0,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_22" spec="Sequence" taxon="19" value="1,0,2,2,1,0,0,1,1,0,"/>
+<sequence id="s10_c3_data.txt_cell_23" spec="Sequence" taxon="20" value="1,0,0,1,1,0,2,2,1,0,"/>
+</data>
+<data  id="s10_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s10_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,1,2,1,0,0,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,1,2,1,0,1,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,2,0,2,2,2,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,2,0,2,2,2,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,2,0,0,1,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,2,0,0,1,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s10_c4_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,1,1,0,"/>
+</data>
+<data  id="s10_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s10_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,2,0,2,1,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,2,0,2,1,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_9" spec="Sequence" taxon="5" value="0,0,0,1,2,0,0,0,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_10" spec="Sequence" taxon="6" value="0,0,0,1,2,0,0,0,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_11" spec="Sequence" taxon="7" value="0,0,0,1,2,0,2,2,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_12" spec="Sequence" taxon="8" value="0,0,0,1,2,0,0,2,1,0,"/>
+<sequence id="s10_c5_data.txt_cell_13" spec="Sequence" taxon="9" value="2,1,0,2,2,0,1,1,2,0,"/>
+<sequence id="s10_c5_data.txt_cell_14" spec="Sequence" taxon="10" value="2,1,0,2,2,0,1,1,2,0,"/>
+</data>
+<data  id="s11_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s11_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,1,2,1,1,0,2,2,2,0,"/>
+<sequence id="s11_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,1,2,1,2,2,2,2,2,0,"/>
+<sequence id="s11_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,1,1,0,2,0,1,1,2,2,"/>
+<sequence id="s11_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,1,1,0,2,0,1,1,1,0,"/>
+<sequence id="s11_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,2,2,2,2,0,1,"/>
+<sequence id="s11_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,2,1,2,2,2,2,2,2,0,"/>
+</data>
+<data  id="s12_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s12_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,2,0,2,2,0,2,2,0,"/>
+<sequence id="s12_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,0,0,2,0,2,2,2,"/>
+<sequence id="s12_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s12_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s12_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,2,0,1,2,0,1,1,0,"/>
+<sequence id="s12_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,0,2,2,0,2,2,2,"/>
+<sequence id="s12_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s12_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,0,2,2,0,2,1,0,"/>
+</data>
+<data  id="s12_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s12_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s12_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,2,0,0,0,2,2,2,"/>
+<sequence id="s12_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s12_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,2,2,2,0,2,2,2,"/>
+</data>
+<data  id="s12_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s12_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,0,0,2,2,2,"/>
+<sequence id="s12_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s12_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s12_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s12_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s12_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,0,1,1,0,0,2,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,2,1,1,0,0,2,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,1,1,1,0,2,2,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="2,0,1,1,1,0,0,0,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,2,1,1,0,0,1,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_8" spec="Sequence" taxon="6" value="1,2,2,1,1,0,0,1,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s12_c4_data.txt_cell_10" spec="Sequence" taxon="8" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s12_c4_data.txt_cell_11" spec="Sequence" taxon="9" value="2,0,1,1,1,2,1,1,2,2,"/>
+<sequence id="s12_c4_data.txt_cell_12" spec="Sequence" taxon="10" value="2,0,1,1,1,0,0,1,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_13" spec="Sequence" taxon="11" value="2,0,2,1,1,0,0,1,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_14" spec="Sequence" taxon="12" value="2,0,2,1,1,2,2,1,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_15" spec="Sequence" taxon="13" value="1,0,2,0,0,2,0,0,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_16" spec="Sequence" taxon="14" value="1,0,1,0,0,2,0,0,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_17" spec="Sequence" taxon="15" value="1,0,2,0,0,2,0,1,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_18" spec="Sequence" taxon="16" value="1,0,2,0,0,2,0,1,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_19" spec="Sequence" taxon="17" value="1,2,0,0,1,0,2,2,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_20" spec="Sequence" taxon="18" value="1,0,2,0,1,2,2,2,1,0,"/>
+<sequence id="s12_c4_data.txt_cell_21" spec="Sequence" taxon="19" value="1,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s12_c4_data.txt_cell_22" spec="Sequence" taxon="20" value="1,0,0,0,0,2,0,2,2,0,"/>
+</data>
+<data  id="s13_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s13_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,2,0,2,0,2,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,0,0,2,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,0,1,1,0,2,2,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_12" spec="Sequence" taxon="11" value="1,0,0,1,0,2,0,2,2,2,"/>
+<sequence id="s13_c1_data.txt_cell_13" spec="Sequence" taxon="12" value="1,2,2,2,0,2,2,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_14" spec="Sequence" taxon="13" value="1,2,2,2,0,2,2,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_15" spec="Sequence" taxon="14" value="1,0,2,2,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_16" spec="Sequence" taxon="15" value="1,0,2,2,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_17" spec="Sequence" taxon="16" value="1,0,0,0,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_18" spec="Sequence" taxon="17" value="1,0,0,0,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_19" spec="Sequence" taxon="18" value="1,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_20" spec="Sequence" taxon="19" value="1,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_21" spec="Sequence" taxon="20" value="1,0,0,0,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_22" spec="Sequence" taxon="21" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_23" spec="Sequence" taxon="22" value="1,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_24" spec="Sequence" taxon="23" value="1,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_25" spec="Sequence" taxon="24" value="0,0,2,0,2,2,0,2,1,2,"/>
+<sequence id="s13_c1_data.txt_cell_26" spec="Sequence" taxon="25" value="0,0,0,0,2,2,0,2,2,2,"/>
+<sequence id="s13_c1_data.txt_cell_27" spec="Sequence" taxon="26" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s13_c1_data.txt_cell_28" spec="Sequence" taxon="27" value="0,0,0,1,2,0,0,2,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_29" spec="Sequence" taxon="28" value="0,0,0,0,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_30" spec="Sequence" taxon="29" value="1,0,2,2,0,2,0,2,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_31" spec="Sequence" taxon="30" value="0,0,0,1,1,0,0,2,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_32" spec="Sequence" taxon="31" value="0,0,0,1,1,0,0,2,0,0,"/>
+<sequence id="s13_c1_data.txt_cell_33" spec="Sequence" taxon="32" value="0,0,1,1,0,0,0,0,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_34" spec="Sequence" taxon="33" value="0,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_35" spec="Sequence" taxon="34" value="0,0,0,0,1,2,0,1,1,0,"/>
+<sequence id="s13_c1_data.txt_cell_36" spec="Sequence" taxon="35" value="1,0,2,0,0,2,0,2,2,2,"/>
+<sequence id="s13_c1_data.txt_cell_43" spec="Sequence" taxon="36" value="1,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_44" spec="Sequence" taxon="37" value="1,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_45" spec="Sequence" taxon="38" value="1,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s13_c1_data.txt_cell_46" spec="Sequence" taxon="39" value="1,0,0,1,0,0,0,2,2,2,"/>
+</data>
+<data  id="s13_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s13_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,2,0,2,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,1,2,0,2,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,0,0,0,2,0,1,2,0,"/>
+<sequence id="s13_c2_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,0,0,2,0,1,2,0,"/>
+<sequence id="s13_c2_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s13_c2_data.txt_cell_10" spec="Sequence" taxon="10" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s13_c2_data.txt_cell_11" spec="Sequence" taxon="11" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_12" spec="Sequence" taxon="12" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_13" spec="Sequence" taxon="13" value="0,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_14" spec="Sequence" taxon="14" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_15" spec="Sequence" taxon="15" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_16" spec="Sequence" taxon="16" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s13_c2_data.txt_cell_17" spec="Sequence" taxon="17" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c2_data.txt_cell_24" spec="Sequence" taxon="18" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s13_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s13_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,2,1,2,0,0,2,2,2,"/>
+<sequence id="s13_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,2,2,1,0,0,0,2,2,2,"/>
+<sequence id="s13_c3_data.txt_cell_5" spec="Sequence" taxon="3" value="1,0,2,1,0,0,0,2,1,0,"/>
+<sequence id="s13_c3_data.txt_cell_6" spec="Sequence" taxon="4" value="1,0,2,1,0,0,0,2,1,0,"/>
+<sequence id="s13_c3_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c3_data.txt_cell_8" spec="Sequence" taxon="6" value="1,2,2,1,0,0,2,2,1,0,"/>
+<sequence id="s13_c3_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c3_data.txt_cell_11" spec="Sequence" taxon="8" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c3_data.txt_cell_12" spec="Sequence" taxon="9" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s13_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s13_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,1,0,0,2,0,0,1,0,"/>
+<sequence id="s13_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,1,0,0,2,0,0,1,0,"/>
+<sequence id="s13_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,1,0,0,2,0,0,2,0,"/>
+<sequence id="s13_c4_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,1,0,0,2,0,0,2,0,"/>
+<sequence id="s13_c4_data.txt_cell_8" spec="Sequence" taxon="8" value="1,1,0,0,0,2,2,1,1,0,"/>
+<sequence id="s13_c4_data.txt_cell_13" spec="Sequence" taxon="9" value="1,0,0,0,0,2,0,1,1,0,"/>
+<sequence id="s13_c4_data.txt_cell_15" spec="Sequence" taxon="10" value="1,0,0,2,0,2,0,1,1,0,"/>
+<sequence id="s13_c4_data.txt_cell_16" spec="Sequence" taxon="11" value="1,0,0,0,0,2,0,1,1,0,"/>
+<sequence id="s13_c4_data.txt_cell_17" spec="Sequence" taxon="12" value="1,0,1,1,0,0,0,0,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_18" spec="Sequence" taxon="13" value="1,0,1,1,0,0,0,0,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_19" spec="Sequence" taxon="14" value="1,0,1,1,0,0,0,0,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_20" spec="Sequence" taxon="15" value="1,0,1,1,0,0,0,0,2,2,"/>
+<sequence id="s13_c4_data.txt_cell_21" spec="Sequence" taxon="16" value="2,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s13_c4_data.txt_cell_22" spec="Sequence" taxon="17" value="2,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s13_c4_data.txt_cell_23" spec="Sequence" taxon="18" value="1,0,2,0,0,2,0,2,2,0,"/>
+<sequence id="s13_c4_data.txt_cell_24" spec="Sequence" taxon="19" value="2,0,2,0,2,2,0,2,2,0,"/>
+</data>
+<data  id="s14_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s14_c2_data.txt_cell_2" spec="Sequence" taxon="1" value="0,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_3" spec="Sequence" taxon="2" value="0,0,2,2,2,0,2,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_4" spec="Sequence" taxon="3" value="0,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_5" spec="Sequence" taxon="4" value="0,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_6" spec="Sequence" taxon="5" value="1,0,2,2,0,0,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_7" spec="Sequence" taxon="6" value="0,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_8" spec="Sequence" taxon="7" value="0,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,1,2,0,2,2,0,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_10" spec="Sequence" taxon="9" value="1,1,1,2,0,2,1,0,2,0,"/>
+<sequence id="s14_c2_data.txt_cell_11" spec="Sequence" taxon="10" value="1,1,1,2,0,2,1,1,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_12" spec="Sequence" taxon="11" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c2_data.txt_cell_13" spec="Sequence" taxon="12" value="1,2,1,2,0,2,2,0,2,0,"/>
+<sequence id="s14_c2_data.txt_cell_14" spec="Sequence" taxon="13" value="1,2,1,2,0,2,2,0,2,0,"/>
+<sequence id="s14_c2_data.txt_cell_15" spec="Sequence" taxon="14" value="1,2,1,2,0,2,2,0,2,0,"/>
+<sequence id="s14_c2_data.txt_cell_16" spec="Sequence" taxon="15" value="1,2,1,2,0,2,2,0,2,0,"/>
+</data>
+<data  id="s14_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s14_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,1,2,0,2,0,0,1,0,"/>
+<sequence id="s14_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,1,2,0,2,0,0,1,0,"/>
+<sequence id="s14_c3_data.txt_cell_5" spec="Sequence" taxon="3" value="1,0,0,2,0,2,0,1,0,2,"/>
+<sequence id="s14_c3_data.txt_cell_6" spec="Sequence" taxon="4" value="1,0,2,2,0,2,0,1,0,2,"/>
+<sequence id="s14_c3_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,1,2,2,"/>
+<sequence id="s14_c3_data.txt_cell_8" spec="Sequence" taxon="6" value="1,0,2,2,0,2,0,1,2,2,"/>
+<sequence id="s14_c3_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c3_data.txt_cell_10" spec="Sequence" taxon="8" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s14_c3_data.txt_cell_12" spec="Sequence" taxon="9" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s14_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s14_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s14_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,0,0,0,2,1,0,"/>
+<sequence id="s14_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,1,0,0,0,2,1,0,"/>
+<sequence id="s14_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,0,0,0,2,2,2,"/>
+<sequence id="s14_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s14_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s14_c4_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,1,0,0,0,2,2,2,"/>
+</data>
+<data  id="s14_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s14_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,0,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,1,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,0,1,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,2,0,1,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_8" spec="Sequence" taxon="8" value="1,2,2,2,0,1,2,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,1,1,1,0,0,0,1,0,"/>
+<sequence id="s14_c5_data.txt_cell_10" spec="Sequence" taxon="10" value="1,0,1,1,0,0,0,0,1,0,"/>
+<sequence id="s14_c5_data.txt_cell_11" spec="Sequence" taxon="11" value="1,0,1,1,0,0,0,2,1,0,"/>
+<sequence id="s14_c5_data.txt_cell_12" spec="Sequence" taxon="12" value="1,0,0,1,0,0,1,2,1,0,"/>
+<sequence id="s14_c5_data.txt_cell_13" spec="Sequence" taxon="13" value="2,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,0,1,2,0,0,1,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_15" spec="Sequence" taxon="15" value="2,0,0,1,2,0,0,1,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_16" spec="Sequence" taxon="16" value="1,0,2,2,0,0,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_17" spec="Sequence" taxon="17" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_19" spec="Sequence" taxon="18" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_20" spec="Sequence" taxon="19" value="2,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_21" spec="Sequence" taxon="20" value="2,0,0,0,2,0,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_22" spec="Sequence" taxon="21" value="1,0,1,0,0,2,0,0,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_23" spec="Sequence" taxon="22" value="1,0,1,0,0,2,0,0,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_24" spec="Sequence" taxon="23" value="1,0,0,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_25" spec="Sequence" taxon="24" value="1,0,0,2,0,2,0,2,2,2,"/>
+<sequence id="s14_c5_data.txt_cell_26" spec="Sequence" taxon="25" value="1,1,0,2,0,2,2,2,2,0,"/>
+</data>
+<data  id="s14_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s14_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,0,2,2,"/>
+<sequence id="s14_c6_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,2,0,2,1,0,0,2,0,"/>
+<sequence id="s14_c6_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,1,0,0,1,0,0,2,0,"/>
+<sequence id="s14_c6_data.txt_cell_4" spec="Sequence" taxon="4" value="2,2,2,0,1,2,2,1,2,0,"/>
+<sequence id="s14_c6_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,2,2,2,0,1,2,0,"/>
+<sequence id="s14_c6_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,2,2,2,0,1,2,0,"/>
+<sequence id="s14_c6_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,1,1,0,0,1,1,0,"/>
+<sequence id="s14_c6_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s14_c6_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s14_c6_data.txt_cell_10" spec="Sequence" taxon="10" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s14_c6_data.txt_cell_14" spec="Sequence" taxon="11" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s15_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c1_data.txt_cell_2" spec="Sequence" taxon="1" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s15_c1_data.txt_cell_3" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s15_c1_data.txt_cell_4" spec="Sequence" taxon="3" value="2,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s15_c1_data.txt_cell_5" spec="Sequence" taxon="4" value="2,0,1,1,2,0,0,0,2,0,"/>
+<sequence id="s15_c1_data.txt_cell_6" spec="Sequence" taxon="5" value="2,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s15_c1_data.txt_cell_7" spec="Sequence" taxon="6" value="2,0,1,1,2,0,0,0,2,0,"/>
+<sequence id="s15_c1_data.txt_cell_8" spec="Sequence" taxon="7" value="2,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s15_c1_data.txt_cell_9" spec="Sequence" taxon="8" value="0,1,0,1,1,0,2,2,1,0,"/>
+<sequence id="s15_c1_data.txt_cell_10" spec="Sequence" taxon="9" value="2,0,0,1,2,0,0,2,1,0,"/>
+<sequence id="s15_c1_data.txt_cell_11" spec="Sequence" taxon="10" value="1,1,0,1,0,0,2,2,1,0,"/>
+<sequence id="s15_c1_data.txt_cell_12" spec="Sequence" taxon="11" value="1,1,0,1,0,0,2,2,1,0,"/>
+<sequence id="s15_c1_data.txt_cell_13" spec="Sequence" taxon="12" value="2,0,0,2,1,2,0,2,1,0,"/>
+<sequence id="s15_c1_data.txt_cell_14" spec="Sequence" taxon="13" value="2,0,0,2,1,2,0,2,1,0,"/>
+</data>
+<data  id="s15_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,0,0,2,0,1,1,0,"/>
+<sequence id="s15_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,2,0,2,2,0,1,1,0,"/>
+<sequence id="s15_c2_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,0,0,0,2,0,1,1,0,"/>
+<sequence id="s15_c2_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,0,0,2,0,1,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_9" spec="Sequence" taxon="9" value="1,1,1,1,0,0,1,0,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_10" spec="Sequence" taxon="10" value="1,1,1,1,0,0,1,0,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_11" spec="Sequence" taxon="11" value="1,1,0,1,0,0,2,2,2,2,"/>
+<sequence id="s15_c2_data.txt_cell_12" spec="Sequence" taxon="12" value="1,1,2,1,0,0,2,2,2,2,"/>
+<sequence id="s15_c2_data.txt_cell_13" spec="Sequence" taxon="13" value="1,0,0,2,0,2,0,2,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,0,2,1,2,0,2,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_15" spec="Sequence" taxon="15" value="2,0,0,2,1,2,0,2,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_16" spec="Sequence" taxon="16" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s15_c2_data.txt_cell_17" spec="Sequence" taxon="17" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s15_c2_data.txt_cell_18" spec="Sequence" taxon="18" value="1,0,0,1,0,0,0,2,2,2,"/>
+<sequence id="s15_c2_data.txt_cell_19" spec="Sequence" taxon="19" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s15_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s15_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,2,1,1,0,0,2,2,2,"/>
+<sequence id="s15_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,1,1,1,0,0,0,2,2,"/>
+<sequence id="s15_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,2,1,0,0,0,1,2,2,"/>
+<sequence id="s15_c3_data.txt_cell_8" spec="Sequence" taxon="5" value="0,0,1,1,1,0,0,0,2,0,"/>
+</data>
+<data  id="s15_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,2,2,0,0,1,2,2,0,1,"/>
+<sequence id="s15_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,2,2,0,0,1,2,2,0,1,"/>
+<sequence id="s15_c4_data.txt_cell_4" spec="Sequence" taxon="3" value="1,0,2,2,0,1,0,0,2,2,"/>
+<sequence id="s15_c4_data.txt_cell_5" spec="Sequence" taxon="4" value="1,0,1,2,0,1,0,0,2,2,"/>
+<sequence id="s15_c4_data.txt_cell_6" spec="Sequence" taxon="5" value="1,0,1,2,0,1,0,0,2,2,"/>
+<sequence id="s15_c4_data.txt_cell_7" spec="Sequence" taxon="6" value="1,0,1,2,0,1,0,0,2,2,"/>
+<sequence id="s15_c4_data.txt_cell_8" spec="Sequence" taxon="7" value="2,0,1,1,2,0,0,0,1,0,"/>
+<sequence id="s15_c4_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s15_c4_data.txt_cell_10" spec="Sequence" taxon="9" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c4_data.txt_cell_11" spec="Sequence" taxon="10" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c4_data.txt_cell_12" spec="Sequence" taxon="11" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c4_data.txt_cell_13" spec="Sequence" taxon="12" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c4_data.txt_cell_14" spec="Sequence" taxon="13" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c4_data.txt_cell_15" spec="Sequence" taxon="14" value="1,0,2,1,0,0,1,1,1,0,"/>
+</data>
+<data  id="s15_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c5_data.txt_cell_3" spec="Sequence" taxon="1" value="2,0,2,1,2,0,0,2,2,2,"/>
+<sequence id="s15_c5_data.txt_cell_4" spec="Sequence" taxon="2" value="1,0,2,1,0,2,0,2,2,2,"/>
+<sequence id="s15_c5_data.txt_cell_5" spec="Sequence" taxon="3" value="1,0,2,2,0,0,0,1,2,2,"/>
+<sequence id="s15_c5_data.txt_cell_6" spec="Sequence" taxon="4" value="1,0,2,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c5_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,2,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c5_data.txt_cell_8" spec="Sequence" taxon="6" value="1,0,2,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c5_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c5_data.txt_cell_10" spec="Sequence" taxon="8" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c5_data.txt_cell_11" spec="Sequence" taxon="9" value="1,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s15_c5_data.txt_cell_12" spec="Sequence" taxon="10" value="1,0,0,1,0,0,0,2,2,0,"/>
+</data>
+<data  id="s15_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c6_data.txt_cell_4" spec="Sequence" taxon="1" value="2,1,2,0,2,2,2,2,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_5" spec="Sequence" taxon="2" value="2,1,2,0,2,2,2,2,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_6" spec="Sequence" taxon="3" value="2,1,2,0,2,2,2,2,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_7" spec="Sequence" taxon="4" value="2,1,2,0,2,2,2,2,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_8" spec="Sequence" taxon="5" value="2,0,2,2,2,2,0,2,0,1,"/>
+<sequence id="s15_c6_data.txt_cell_9" spec="Sequence" taxon="6" value="2,0,2,2,2,2,0,2,0,1,"/>
+<sequence id="s15_c6_data.txt_cell_10" spec="Sequence" taxon="7" value="2,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s15_c6_data.txt_cell_11" spec="Sequence" taxon="8" value="2,0,1,0,1,2,0,0,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_12" spec="Sequence" taxon="9" value="2,0,1,0,1,2,0,0,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_13" spec="Sequence" taxon="10" value="2,0,1,0,1,2,0,0,1,0,"/>
+<sequence id="s15_c6_data.txt_cell_14" spec="Sequence" taxon="11" value="2,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s15_c6_data.txt_cell_15" spec="Sequence" taxon="12" value="2,0,2,2,2,2,0,2,2,2,"/>
+</data>
+<data  id="s15_c7_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c7_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s15_c7_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,0,0,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,2,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s15_c7_data.txt_cell_12" spec="Sequence" taxon="12" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_14" spec="Sequence" taxon="13" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s15_c7_data.txt_cell_15" spec="Sequence" taxon="14" value="0,0,2,0,2,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_16" spec="Sequence" taxon="15" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_17" spec="Sequence" taxon="16" value="0,0,0,2,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_18" spec="Sequence" taxon="17" value="0,0,2,0,2,2,0,1,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_19" spec="Sequence" taxon="18" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_20" spec="Sequence" taxon="19" value="0,0,0,0,2,2,0,1,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_21" spec="Sequence" taxon="20" value="0,0,0,0,2,2,0,1,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_22" spec="Sequence" taxon="21" value="0,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_23" spec="Sequence" taxon="22" value="0,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_24" spec="Sequence" taxon="23" value="0,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_25" spec="Sequence" taxon="24" value="1,0,2,0,0,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_26" spec="Sequence" taxon="25" value="0,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_27" spec="Sequence" taxon="26" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s15_c7_data.txt_cell_28" spec="Sequence" taxon="27" value="1,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_29" spec="Sequence" taxon="28" value="1,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s15_c7_data.txt_cell_30" spec="Sequence" taxon="29" value="0,0,0,0,2,2,0,2,0,0,"/>
+</data>
+<data  id="s15_c8_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s15_c8_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,1,1,0,0,0,0,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,1,1,0,0,0,0,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,1,1,0,0,0,0,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_10" spec="Sequence" taxon="10" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_11" spec="Sequence" taxon="11" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_12" spec="Sequence" taxon="12" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_13" spec="Sequence" taxon="13" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_14" spec="Sequence" taxon="14" value="0,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_15" spec="Sequence" taxon="15" value="0,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_16" spec="Sequence" taxon="16" value="0,0,0,2,2,2,0,1,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_17" spec="Sequence" taxon="17" value="0,0,2,2,2,2,0,2,2,0,"/>
+<sequence id="s15_c8_data.txt_cell_18" spec="Sequence" taxon="18" value="0,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s15_c8_data.txt_cell_19" spec="Sequence" taxon="19" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s15_c8_data.txt_cell_20" spec="Sequence" taxon="20" value="0,0,0,1,2,0,0,1,1,0,"/>
+</data>
+<data  id="s16_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_6" spec="Sequence" taxon="2" value="0,0,0,0,0,2,0,2,1,2,"/>
+<sequence id="s16_c1_data.txt_cell_7" spec="Sequence" taxon="3" value="0,0,0,0,2,2,0,2,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_8" spec="Sequence" taxon="4" value="0,0,2,0,2,2,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_9" spec="Sequence" taxon="5" value="1,0,2,0,0,0,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_10" spec="Sequence" taxon="6" value="0,0,0,1,0,0,0,2,2,1,"/>
+<sequence id="s16_c1_data.txt_cell_11" spec="Sequence" taxon="7" value="1,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_12" spec="Sequence" taxon="8" value="0,0,0,1,2,0,0,2,2,0,"/>
+<sequence id="s16_c1_data.txt_cell_13" spec="Sequence" taxon="9" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_14" spec="Sequence" taxon="10" value="0,1,0,1,2,0,0,2,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_15" spec="Sequence" taxon="11" value="0,1,0,0,0,2,0,2,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_16" spec="Sequence" taxon="12" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_17" spec="Sequence" taxon="13" value="2,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_18" spec="Sequence" taxon="14" value="2,0,0,1,2,0,0,2,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_19" spec="Sequence" taxon="15" value="1,0,2,2,0,2,0,1,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_20" spec="Sequence" taxon="16" value="0,0,2,2,1,2,0,1,1,0,"/>
+<sequence id="s16_c1_data.txt_cell_21" spec="Sequence" taxon="17" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s16_c1_data.txt_cell_23" spec="Sequence" taxon="18" value="0,0,0,0,2,2,0,2,2,2,"/>
+<sequence id="s16_c1_data.txt_cell_24" spec="Sequence" taxon="19" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s16_c1_data.txt_cell_25" spec="Sequence" taxon="20" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s16_c1_data.txt_cell_26" spec="Sequence" taxon="21" value="0,0,0,0,2,2,0,2,0,0,"/>
+</data>
+<data  id="s16_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c2_data.txt_cell_5" spec="Sequence" taxon="2" value="1,0,2,1,0,0,0,2,1,0,"/>
+<sequence id="s16_c2_data.txt_cell_6" spec="Sequence" taxon="3" value="1,0,0,1,0,0,0,2,1,0,"/>
+<sequence id="s16_c2_data.txt_cell_7" spec="Sequence" taxon="4" value="1,1,0,1,0,0,2,2,1,0,"/>
+<sequence id="s16_c2_data.txt_cell_8" spec="Sequence" taxon="5" value="1,1,0,1,0,0,2,2,1,0,"/>
+<sequence id="s16_c2_data.txt_cell_9" spec="Sequence" taxon="6" value="1,1,0,1,0,0,2,2,1,0,"/>
+</data>
+<data  id="s16_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,2,0,2,2,0,0,2,2,"/>
+<sequence id="s16_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c3_data.txt_cell_10" spec="Sequence" taxon="5" value="2,0,2,1,2,0,0,2,2,2,"/>
+<sequence id="s16_c3_data.txt_cell_11" spec="Sequence" taxon="6" value="0,0,0,1,2,0,0,2,1,0,"/>
+<sequence id="s16_c3_data.txt_cell_12" spec="Sequence" taxon="7" value="0,0,0,1,2,0,0,2,1,0,"/>
+</data>
+<data  id="s16_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c4_data.txt_cell_3" spec="Sequence" taxon="2" value="1,0,1,2,0,2,0,0,2,2,"/>
+<sequence id="s16_c4_data.txt_cell_4" spec="Sequence" taxon="3" value="1,0,1,2,0,2,0,0,2,2,"/>
+<sequence id="s16_c4_data.txt_cell_5" spec="Sequence" taxon="4" value="1,0,1,2,0,2,0,0,1,2,"/>
+<sequence id="s16_c4_data.txt_cell_6" spec="Sequence" taxon="5" value="1,0,1,2,0,2,0,0,1,0,"/>
+<sequence id="s16_c4_data.txt_cell_7" spec="Sequence" taxon="6" value="2,2,2,0,1,2,2,1,2,2,"/>
+<sequence id="s16_c4_data.txt_cell_8" spec="Sequence" taxon="7" value="2,2,2,0,1,2,2,1,2,2,"/>
+<sequence id="s16_c4_data.txt_cell_9" spec="Sequence" taxon="8" value="2,2,0,0,1,2,2,1,2,2,"/>
+<sequence id="s16_c4_data.txt_cell_10" spec="Sequence" taxon="9" value="2,2,0,0,1,2,2,1,2,2,"/>
+</data>
+<data  id="s16_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="2,1,1,2,2,2,1,0,1,0,"/>
+<sequence id="s16_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="2,1,1,2,2,2,1,0,1,0,"/>
+<sequence id="s16_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="2,1,1,2,2,2,1,0,1,0,"/>
+<sequence id="s16_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,1,2,2,2,1,0,1,0,"/>
+<sequence id="s16_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c5_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c5_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,2,1,1,0,0,1,1,0,"/>
+<sequence id="s16_c5_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,2,1,1,0,0,1,1,2,"/>
+<sequence id="s16_c5_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,1,1,1,0,0,0,1,0,"/>
+<sequence id="s16_c5_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,1,1,1,0,0,0,1,0,"/>
+</data>
+<data  id="s16_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c6_data.txt_cell_3" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c6_data.txt_cell_6" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c6_data.txt_cell_7" spec="Sequence" taxon="4" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s16_c6_data.txt_cell_8" spec="Sequence" taxon="5" value="2,2,2,1,2,0,2,1,1,0,"/>
+<sequence id="s16_c6_data.txt_cell_9" spec="Sequence" taxon="6" value="2,2,2,1,2,0,2,1,1,0,"/>
+<sequence id="s16_c6_data.txt_cell_10" spec="Sequence" taxon="7" value="2,2,2,1,2,0,2,1,1,0,"/>
+<sequence id="s16_c6_data.txt_cell_11" spec="Sequence" taxon="8" value="2,2,2,1,2,0,2,1,1,2,"/>
+<sequence id="s16_c6_data.txt_cell_12" spec="Sequence" taxon="9" value="2,0,2,1,2,0,2,1,1,0,"/>
+<sequence id="s16_c6_data.txt_cell_13" spec="Sequence" taxon="10" value="2,2,2,1,2,0,2,1,1,0,"/>
+<sequence id="s16_c6_data.txt_cell_14" spec="Sequence" taxon="11" value="2,2,2,1,2,0,2,1,1,0,"/>
+<sequence id="s16_c6_data.txt_cell_15" spec="Sequence" taxon="12" value="2,2,0,1,2,0,1,1,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_16" spec="Sequence" taxon="13" value="2,2,0,1,2,0,1,1,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_17" spec="Sequence" taxon="14" value="2,2,0,1,2,0,1,1,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_18" spec="Sequence" taxon="15" value="2,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_20" spec="Sequence" taxon="16" value="2,2,1,1,2,0,1,0,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_21" spec="Sequence" taxon="17" value="2,2,1,1,2,0,1,0,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_22" spec="Sequence" taxon="18" value="2,2,0,1,2,0,1,1,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_23" spec="Sequence" taxon="19" value="2,2,0,1,2,0,1,1,2,0,"/>
+<sequence id="s16_c6_data.txt_cell_24" spec="Sequence" taxon="20" value="2,2,0,1,2,0,1,1,2,0,"/>
+</data>
+<data  id="s16_c7_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c7_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,0,0,2,0,1,2,0,"/>
+<sequence id="s16_c7_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,1,0,1,2,0,0,1,0,"/>
+<sequence id="s16_c7_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s16_c7_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,0,2,0,2,2,2,"/>
+<sequence id="s16_c7_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,0,0,2,2,2,"/>
+<sequence id="s16_c7_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s16_c7_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,2,0,2,0,2,2,0,"/>
+<sequence id="s16_c7_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,2,2,0,2,0,2,2,0,"/>
+<sequence id="s16_c7_data.txt_cell_9" spec="Sequence" taxon="9" value="2,1,2,2,2,2,2,2,1,0,"/>
+</data>
+<data  id="s16_c8_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c8_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s16_c8_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,1,0,0,0,1,0,0,"/>
+<sequence id="s16_c8_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,0,0,0,2,0,0,"/>
+<sequence id="s16_c8_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,0,0,0,2,0,0,"/>
+<sequence id="s16_c8_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s16_c8_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s16_c8_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,1,2,0,1,1,0,"/>
+<sequence id="s16_c8_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,0,1,2,0,1,1,0,"/>
+<sequence id="s16_c8_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,1,1,2,0,0,0,0,0,"/>
+<sequence id="s16_c8_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,1,1,2,0,0,0,0,0,"/>
+<sequence id="s16_c8_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,1,1,2,0,0,0,0,0,"/>
+</data>
+<data  id="s16_c9_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s16_c9_data.txt_cell_1" spec="Sequence" taxon="1" value="1,1,0,1,0,0,2,2,1,0,"/>
+<sequence id="s16_c9_data.txt_cell_2" spec="Sequence" taxon="2" value="1,1,0,1,0,0,2,2,1,0,"/>
+<sequence id="s16_c9_data.txt_cell_3" spec="Sequence" taxon="3" value="1,1,1,1,0,0,0,0,1,0,"/>
+<sequence id="s16_c9_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,0,0,0,2,1,0,"/>
+</data>
+<data  id="s17_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s17_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,0,2,2,0,2,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,2,2,0,2,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,0,2,0,2,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,0,0,2,0,2,1,0,"/>
+<sequence id="s17_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,1,2,0,0,2,1,2,"/>
+<sequence id="s17_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s17_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,2,1,1,0,0,2,2,0,"/>
+<sequence id="s17_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,2,1,1,0,0,2,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,2,0,2,2,0,1,2,0,"/>
+<sequence id="s17_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s17_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="1,0,2,2,0,2,0,2,1,2,"/>
+<sequence id="s17_c1_data.txt_cell_13" spec="Sequence" taxon="13" value="1,2,0,0,0,2,1,1,1,0,"/>
+<sequence id="s17_c1_data.txt_cell_14" spec="Sequence" taxon="14" value="0,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_15" spec="Sequence" taxon="15" value="0,0,0,1,2,0,0,2,1,0,"/>
+<sequence id="s17_c1_data.txt_cell_16" spec="Sequence" taxon="16" value="2,0,2,1,2,0,0,2,1,0,"/>
+<sequence id="s17_c1_data.txt_cell_17" spec="Sequence" taxon="17" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s17_c1_data.txt_cell_18" spec="Sequence" taxon="18" value="0,0,0,0,2,2,0,2,0,2,"/>
+<sequence id="s17_c1_data.txt_cell_19" spec="Sequence" taxon="19" value="0,0,0,2,1,2,0,2,1,0,"/>
+<sequence id="s17_c1_data.txt_cell_20" spec="Sequence" taxon="20" value="0,0,2,1,2,0,0,1,1,0,"/>
+</data>
+<data  id="s18_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s18_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s18_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s18_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,1,2,0,0,2,2,2,"/>
+<sequence id="s18_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,2,0,0,2,2,2,"/>
+<sequence id="s18_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,2,1,2,0,2,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,1,2,0,2,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="2,0,0,1,1,0,0,2,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="2,0,2,0,1,2,0,2,2,0,"/>
+<sequence id="s18_c1_data.txt_cell_14" spec="Sequence" taxon="13" value="0,0,0,2,2,2,0,1,0,0,"/>
+<sequence id="s18_c1_data.txt_cell_15" spec="Sequence" taxon="14" value="2,0,0,0,2,2,0,1,0,0,"/>
+<sequence id="s18_c1_data.txt_cell_16" spec="Sequence" taxon="15" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s18_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s18_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s18_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,2,1,2,0,0,2,2,2,"/>
+<sequence id="s18_c2_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,0,1,2,0,0,2,0,0,"/>
+<sequence id="s18_c2_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,1,0,0,0,1,2,2,"/>
+<sequence id="s18_c2_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,2,1,0,0,0,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,1,1,0,0,0,0,0,0,"/>
+<sequence id="s18_c2_data.txt_cell_10" spec="Sequence" taxon="10" value="1,0,2,1,0,0,0,1,0,0,"/>
+<sequence id="s18_c2_data.txt_cell_11" spec="Sequence" taxon="11" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s18_c2_data.txt_cell_12" spec="Sequence" taxon="12" value="1,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s18_c2_data.txt_cell_13" spec="Sequence" taxon="13" value="0,2,2,2,2,2,1,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_14" spec="Sequence" taxon="14" value="0,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_15" spec="Sequence" taxon="15" value="0,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_16" spec="Sequence" taxon="16" value="0,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_17" spec="Sequence" taxon="17" value="0,0,2,2,2,2,2,2,1,0,"/>
+<sequence id="s18_c2_data.txt_cell_18" spec="Sequence" taxon="18" value="0,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s18_c2_data.txt_cell_19" spec="Sequence" taxon="19" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s18_c2_data.txt_cell_20" spec="Sequence" taxon="20" value="0,0,0,2,2,2,0,1,0,0,"/>
+<sequence id="s18_c2_data.txt_cell_21" spec="Sequence" taxon="21" value="0,0,0,2,2,2,0,1,0,0,"/>
+</data>
+<data  id="s19_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s19_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,2,2,2,2,2,2,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="2,2,2,2,2,2,2,2,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="2,2,2,2,2,2,0,2,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="2,2,2,2,2,2,2,2,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,2,2,2,2,2,1,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="2,2,2,2,2,2,2,1,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="2,2,2,2,2,2,2,1,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="2,2,2,2,2,2,2,1,1,1,"/>
+<sequence id="s19_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,2,0,2,2,0,2,0,0,"/>
+<sequence id="s19_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s19_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s19_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="0,0,0,0,2,2,0,2,0,0,"/>
+</data>
+<data  id="s19_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s19_c2_data.txt_cell_2" spec="Sequence" taxon="1" value="1,0,1,2,0,2,0,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_4" spec="Sequence" taxon="2" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_5" spec="Sequence" taxon="3" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_6" spec="Sequence" taxon="4" value="1,0,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_7" spec="Sequence" taxon="5" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_8" spec="Sequence" taxon="6" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_9" spec="Sequence" taxon="7" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_10" spec="Sequence" taxon="8" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_11" spec="Sequence" taxon="9" value="1,2,1,2,0,2,1,0,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_13" spec="Sequence" taxon="10" value="1,0,1,2,0,2,0,0,2,2,"/>
+<sequence id="s19_c2_data.txt_cell_14" spec="Sequence" taxon="11" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s19_c2_data.txt_cell_15" spec="Sequence" taxon="12" value="2,0,2,2,1,2,0,2,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_16" spec="Sequence" taxon="13" value="2,0,2,2,1,2,0,2,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_17" spec="Sequence" taxon="14" value="2,0,2,2,1,2,0,2,2,0,"/>
+<sequence id="s19_c2_data.txt_cell_18" spec="Sequence" taxon="15" value="2,0,2,2,1,2,0,2,2,0,"/>
+</data>
+<data  id="s19_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s19_c3_data.txt_cell_2" spec="Sequence" taxon="1" value="0,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s19_c3_data.txt_cell_3" spec="Sequence" taxon="2" value="2,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s19_c3_data.txt_cell_5" spec="Sequence" taxon="3" value="1,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s19_c3_data.txt_cell_6" spec="Sequence" taxon="4" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s19_c3_data.txt_cell_7" spec="Sequence" taxon="5" value="0,0,0,1,1,2,0,1,2,0,"/>
+<sequence id="s19_c3_data.txt_cell_8" spec="Sequence" taxon="6" value="0,0,0,0,0,2,0,2,2,2,"/>
+<sequence id="s19_c3_data.txt_cell_9" spec="Sequence" taxon="7" value="0,0,2,0,2,2,0,2,2,0,"/>
+</data>
+<data  id="s19_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s19_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,0,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s19_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,2,0,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,2,0,0,2,0,2,2,0,"/>
+<sequence id="s19_c4_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,2,0,2,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,0,2,0,2,2,0,"/>
+<sequence id="s19_c4_data.txt_cell_13" spec="Sequence" taxon="11" value="1,0,0,0,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_14" spec="Sequence" taxon="12" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s19_c4_data.txt_cell_15" spec="Sequence" taxon="13" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s19_c4_data.txt_cell_16" spec="Sequence" taxon="14" value="0,0,0,0,2,2,0,2,0,0,"/>
+</data>
+<data  id="s2_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,2,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_3" spec="Sequence" taxon="2" value="0,0,0,0,2,0,0,1,2,0,"/>
+<sequence id="s2_c1_data.txt_cell_6" spec="Sequence" taxon="3" value="0,0,0,0,2,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_7" spec="Sequence" taxon="4" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_8" spec="Sequence" taxon="5" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_9" spec="Sequence" taxon="6" value="0,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_10" spec="Sequence" taxon="7" value="0,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_11" spec="Sequence" taxon="8" value="0,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s2_c1_data.txt_cell_12" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s2_c1_data.txt_cell_13" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s2_c1_data.txt_cell_14" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s2_c1_data.txt_cell_15" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s2_c1_data.txt_cell_16" spec="Sequence" taxon="13" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s2_c1_data.txt_cell_18" spec="Sequence" taxon="14" value="0,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_19" spec="Sequence" taxon="15" value="0,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_20" spec="Sequence" taxon="16" value="2,0,0,0,1,0,0,2,2,0,"/>
+<sequence id="s2_c1_data.txt_cell_21" spec="Sequence" taxon="17" value="2,0,0,0,1,0,0,2,2,0,"/>
+<sequence id="s2_c1_data.txt_cell_22" spec="Sequence" taxon="18" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s2_c1_data.txt_cell_26" spec="Sequence" taxon="19" value="0,0,0,2,0,0,0,2,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_27" spec="Sequence" taxon="20" value="0,0,0,2,1,0,1,2,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_29" spec="Sequence" taxon="21" value="0,0,0,2,1,0,1,2,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_30" spec="Sequence" taxon="22" value="1,1,1,1,1,0,2,2,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_31" spec="Sequence" taxon="23" value="1,1,1,1,0,0,2,2,2,2,"/>
+<sequence id="s2_c1_data.txt_cell_32" spec="Sequence" taxon="24" value="0,0,0,1,0,0,0,2,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_35" spec="Sequence" taxon="25" value="0,0,2,1,0,0,0,1,2,2,"/>
+<sequence id="s2_c1_data.txt_cell_36" spec="Sequence" taxon="26" value="0,0,2,2,2,2,2,2,2,2,"/>
+<sequence id="s2_c1_data.txt_cell_39" spec="Sequence" taxon="27" value="0,0,2,2,0,2,2,2,2,2,"/>
+<sequence id="s2_c1_data.txt_cell_40" spec="Sequence" taxon="28" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_41" spec="Sequence" taxon="29" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_42" spec="Sequence" taxon="30" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_43" spec="Sequence" taxon="31" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_44" spec="Sequence" taxon="32" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_45" spec="Sequence" taxon="33" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c1_data.txt_cell_46" spec="Sequence" taxon="34" value="0,0,2,2,0,0,0,1,1,0,"/>
+</data>
+<data  id="s2_c10_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c10_data.txt_cell_1" spec="Sequence" taxon="1" value="2,1,1,2,2,0,2,1,1,0,"/>
+<sequence id="s2_c10_data.txt_cell_2" spec="Sequence" taxon="2" value="2,1,1,2,2,0,2,1,1,0,"/>
+<sequence id="s2_c10_data.txt_cell_3" spec="Sequence" taxon="3" value="2,1,1,2,2,0,2,1,1,0,"/>
+<sequence id="s2_c10_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,1,2,2,0,2,1,1,0,"/>
+<sequence id="s2_c10_data.txt_cell_5" spec="Sequence" taxon="5" value="2,2,1,2,2,0,2,1,1,0,"/>
+<sequence id="s2_c10_data.txt_cell_6" spec="Sequence" taxon="6" value="2,2,1,2,2,0,2,1,1,0,"/>
+<sequence id="s2_c10_data.txt_cell_9" spec="Sequence" taxon="7" value="2,0,2,2,2,2,2,2,1,2,"/>
+<sequence id="s2_c10_data.txt_cell_10" spec="Sequence" taxon="8" value="2,0,2,2,2,2,2,2,1,2,"/>
+<sequence id="s2_c10_data.txt_cell_11" spec="Sequence" taxon="9" value="2,0,2,2,2,2,2,2,1,2,"/>
+<sequence id="s2_c10_data.txt_cell_13" spec="Sequence" taxon="10" value="1,0,1,1,0,0,2,2,2,2,"/>
+<sequence id="s2_c10_data.txt_cell_14" spec="Sequence" taxon="11" value="1,0,1,1,0,0,1,1,2,2,"/>
+<sequence id="s2_c10_data.txt_cell_15" spec="Sequence" taxon="12" value="1,0,1,1,0,0,1,1,2,2,"/>
+</data>
+<data  id="s2_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,1,1,0,2,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,1,1,0,2,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,2,1,1,0,2,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,1,0,2,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_7" spec="Sequence" taxon="5" value="0,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_8" spec="Sequence" taxon="6" value="0,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,1,1,2,0,0,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_10" spec="Sequence" taxon="8" value="1,0,1,1,2,0,0,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_11" spec="Sequence" taxon="9" value="1,2,1,1,2,0,0,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_12" spec="Sequence" taxon="10" value="1,0,1,1,2,0,0,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_13" spec="Sequence" taxon="11" value="1,0,1,1,2,0,0,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_15" spec="Sequence" taxon="12" value="1,0,2,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c2_data.txt_cell_16" spec="Sequence" taxon="13" value="1,0,2,2,0,0,0,1,1,0,"/>
+</data>
+<data  id="s2_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,1,1,1,0,1,2,2,0,"/>
+<sequence id="s2_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,1,1,1,0,0,1,1,0,"/>
+<sequence id="s2_c4_data.txt_cell_4" spec="Sequence" taxon="3" value="1,0,1,1,1,0,2,2,2,0,"/>
+<sequence id="s2_c4_data.txt_cell_5" spec="Sequence" taxon="4" value="1,0,0,0,1,0,1,2,1,0,"/>
+<sequence id="s2_c4_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s2_c4_data.txt_cell_8" spec="Sequence" taxon="6" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s2_c4_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,0,1,1,0,0,2,2,0,"/>
+<sequence id="s2_c4_data.txt_cell_10" spec="Sequence" taxon="8" value="1,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s2_c4_data.txt_cell_11" spec="Sequence" taxon="9" value="1,0,0,0,0,0,1,2,1,0,"/>
+<sequence id="s2_c4_data.txt_cell_13" spec="Sequence" taxon="10" value="1,0,0,0,1,0,0,2,1,0,"/>
+</data>
+<data  id="s2_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_4" spec="Sequence" taxon="3" value="0,0,0,1,2,2,0,2,2,0,"/>
+<sequence id="s2_c5_data.txt_cell_5" spec="Sequence" taxon="4" value="2,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,0,1,0,0,1,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_10" spec="Sequence" taxon="6" value="1,0,0,0,2,0,1,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_11" spec="Sequence" taxon="7" value="1,0,0,0,2,0,0,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_12" spec="Sequence" taxon="8" value="1,0,0,0,1,0,1,1,1,0,"/>
+<sequence id="s2_c5_data.txt_cell_13" spec="Sequence" taxon="9" value="1,1,0,0,1,0,1,1,1,0,"/>
+</data>
+<data  id="s2_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c6_data.txt_cell_4" spec="Sequence" taxon="1" value="0,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_6" spec="Sequence" taxon="2" value="2,0,0,1,0,0,2,1,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_7" spec="Sequence" taxon="3" value="2,0,0,1,0,0,2,1,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_8" spec="Sequence" taxon="4" value="2,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_9" spec="Sequence" taxon="5" value="2,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_10" spec="Sequence" taxon="6" value="2,0,0,0,2,0,0,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_11" spec="Sequence" taxon="7" value="2,0,0,2,2,0,0,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_17" spec="Sequence" taxon="8" value="2,2,2,2,0,0,0,0,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_18" spec="Sequence" taxon="9" value="2,2,2,2,0,0,0,0,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_19" spec="Sequence" taxon="10" value="2,2,2,2,0,0,0,0,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_20" spec="Sequence" taxon="11" value="2,2,2,2,0,0,0,0,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_21" spec="Sequence" taxon="12" value="2,2,2,2,0,0,0,0,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_22" spec="Sequence" taxon="13" value="2,2,2,2,0,0,0,0,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_23" spec="Sequence" taxon="14" value="2,2,2,2,0,0,0,0,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_24" spec="Sequence" taxon="15" value="2,2,2,2,1,0,0,0,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_25" spec="Sequence" taxon="16" value="2,2,2,2,1,0,0,0,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_26" spec="Sequence" taxon="17" value="2,2,2,2,0,0,0,0,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_27" spec="Sequence" taxon="18" value="2,0,2,2,0,0,0,0,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_28" spec="Sequence" taxon="19" value="1,0,0,0,1,0,0,0,0,0,"/>
+<sequence id="s2_c6_data.txt_cell_29" spec="Sequence" taxon="20" value="0,0,0,0,1,0,0,0,2,0,"/>
+<sequence id="s2_c6_data.txt_cell_30" spec="Sequence" taxon="21" value="0,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s2_c6_data.txt_cell_31" spec="Sequence" taxon="22" value="0,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_32" spec="Sequence" taxon="23" value="2,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_33" spec="Sequence" taxon="24" value="2,0,0,1,0,0,2,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_34" spec="Sequence" taxon="25" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c6_data.txt_cell_35" spec="Sequence" taxon="26" value="1,0,0,1,0,0,0,1,2,0,"/>
+</data>
+<data  id="s2_c8_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c8_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s2_c8_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,1,1,0,0,0,2,0,"/>
+<sequence id="s2_c8_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,0,1,0,0,0,2,0,"/>
+<sequence id="s2_c8_data.txt_cell_4" spec="Sequence" taxon="4" value="2,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_6" spec="Sequence" taxon="6" value="2,2,2,2,0,2,2,2,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_7" spec="Sequence" taxon="7" value="2,2,2,2,0,2,2,2,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_12" spec="Sequence" taxon="8" value="1,2,1,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_13" spec="Sequence" taxon="9" value="1,2,2,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_14" spec="Sequence" taxon="10" value="2,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c8_data.txt_cell_15" spec="Sequence" taxon="11" value="2,0,1,2,0,0,0,1,1,0,"/>
+</data>
+<data  id="s2_c9_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s2_c9_data.txt_cell_8" spec="Sequence" taxon="1" value="2,0,0,1,1,0,2,1,2,0,"/>
+<sequence id="s2_c9_data.txt_cell_9" spec="Sequence" taxon="2" value="2,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s2_c9_data.txt_cell_10" spec="Sequence" taxon="3" value="2,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s2_c9_data.txt_cell_11" spec="Sequence" taxon="4" value="2,0,2,1,1,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_12" spec="Sequence" taxon="5" value="2,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s2_c9_data.txt_cell_13" spec="Sequence" taxon="6" value="2,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s2_c9_data.txt_cell_15" spec="Sequence" taxon="7" value="0,2,2,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_17" spec="Sequence" taxon="8" value="0,2,2,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_18" spec="Sequence" taxon="9" value="0,2,2,2,0,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_19" spec="Sequence" taxon="10" value="0,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_20" spec="Sequence" taxon="11" value="0,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_21" spec="Sequence" taxon="12" value="0,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s2_c9_data.txt_cell_22" spec="Sequence" taxon="13" value="0,0,0,1,0,0,0,1,1,0,"/>
+</data>
+<data  id="s20_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,2,2,2,1,1,0,0,"/>
+<sequence id="s20_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,2,2,2,0,1,0,0,"/>
+<sequence id="s20_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,2,2,2,0,1,0,0,"/>
+<sequence id="s20_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,0,2,0,2,2,2,"/>
+<sequence id="s20_c1_data.txt_cell_7" spec="Sequence" taxon="5" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s20_c1_data.txt_cell_8" spec="Sequence" taxon="6" value="0,0,0,2,1,2,0,1,2,0,"/>
+<sequence id="s20_c1_data.txt_cell_9" spec="Sequence" taxon="7" value="0,0,0,2,1,2,0,1,2,0,"/>
+<sequence id="s20_c1_data.txt_cell_10" spec="Sequence" taxon="8" value="0,0,0,2,2,2,0,1,2,0,"/>
+<sequence id="s20_c1_data.txt_cell_11" spec="Sequence" taxon="9" value="1,0,2,2,0,2,0,2,2,0,"/>
+</data>
+<data  id="s20_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_3" spec="Sequence" taxon="2" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_4" spec="Sequence" taxon="3" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_5" spec="Sequence" taxon="4" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_6" spec="Sequence" taxon="5" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_7" spec="Sequence" taxon="6" value="0,0,0,0,2,0,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_8" spec="Sequence" taxon="7" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_9" spec="Sequence" taxon="8" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_11" spec="Sequence" taxon="9" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_12" spec="Sequence" taxon="10" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_13" spec="Sequence" taxon="11" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_14" spec="Sequence" taxon="12" value="0,0,0,1,2,0,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_15" spec="Sequence" taxon="13" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_16" spec="Sequence" taxon="14" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_17" spec="Sequence" taxon="15" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_18" spec="Sequence" taxon="16" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_19" spec="Sequence" taxon="17" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s20_c2_data.txt_cell_20" spec="Sequence" taxon="18" value="1,0,2,0,0,2,0,2,2,0,"/>
+<sequence id="s20_c2_data.txt_cell_21" spec="Sequence" taxon="19" value="0,0,0,0,2,2,0,2,0,0,"/>
+</data>
+<data  id="s20_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s20_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s20_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,0,0,0,2,2,2,"/>
+<sequence id="s20_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,2,0,2,0,2,1,2,"/>
+<sequence id="s20_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s20_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s20_c3_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s20_c3_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,1,0,0,0,1,1,0,"/>
+</data>
+<data  id="s20_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,1,1,0,0,2,2,0,"/>
+<sequence id="s20_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,1,1,0,0,2,2,0,"/>
+<sequence id="s20_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,1,1,1,0,0,0,2,0,"/>
+<sequence id="s20_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="2,0,1,1,1,0,0,0,2,0,"/>
+<sequence id="s20_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s20_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s20_c4_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s20_c4_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s20_c4_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s20_c4_data.txt_cell_10" spec="Sequence" taxon="10" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s20_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="1,2,2,2,0,2,2,2,2,2,"/>
+<sequence id="s20_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="1,1,2,1,0,0,1,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="1,1,2,1,0,0,1,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="1,1,2,1,0,0,1,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,1,1,1,0,0,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,2,1,1,0,1,0,2,0,"/>
+<sequence id="s20_c5_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,2,1,0,0,0,1,2,2,"/>
+<sequence id="s20_c5_data.txt_cell_10" spec="Sequence" taxon="10" value="1,1,0,1,0,0,0,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_11" spec="Sequence" taxon="11" value="2,0,1,1,2,0,0,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_12" spec="Sequence" taxon="12" value="2,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s20_c5_data.txt_cell_13" spec="Sequence" taxon="13" value="2,0,0,2,2,2,0,1,2,0,"/>
+<sequence id="s20_c5_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,0,2,2,2,0,1,2,0,"/>
+</data>
+<data  id="s20_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="2,1,1,1,2,0,2,0,2,2,"/>
+<sequence id="s20_c6_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,1,1,2,0,0,0,2,2,"/>
+<sequence id="s20_c6_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s20_c6_data.txt_cell_4" spec="Sequence" taxon="4" value="2,0,0,1,2,0,0,1,2,2,"/>
+<sequence id="s20_c6_data.txt_cell_8" spec="Sequence" taxon="5" value="1,0,2,0,0,2,0,2,2,0,"/>
+<sequence id="s20_c6_data.txt_cell_9" spec="Sequence" taxon="6" value="1,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s20_c6_data.txt_cell_10" spec="Sequence" taxon="7" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s20_c6_data.txt_cell_11" spec="Sequence" taxon="8" value="0,0,0,0,1,2,0,2,2,0,"/>
+<sequence id="s20_c6_data.txt_cell_12" spec="Sequence" taxon="9" value="0,1,1,1,2,0,2,0,2,1,"/>
+<sequence id="s20_c6_data.txt_cell_13" spec="Sequence" taxon="10" value="0,1,2,1,2,0,2,2,2,1,"/>
+<sequence id="s20_c6_data.txt_cell_16" spec="Sequence" taxon="11" value="2,0,0,1,2,0,0,1,2,2,"/>
+<sequence id="s20_c6_data.txt_cell_19" spec="Sequence" taxon="12" value="1,0,0,1,0,0,0,1,1,0,"/>
+</data>
+<data  id="s20_c7_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s20_c7_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,1,0,"/>
+<sequence id="s20_c7_data.txt_cell_4" spec="Sequence" taxon="2" value="2,0,0,2,1,2,0,1,1,0,"/>
+<sequence id="s20_c7_data.txt_cell_5" spec="Sequence" taxon="3" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s21_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s21_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="2,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s21_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="2,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s21_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="2,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s21_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="2,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s21_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c1_data.txt_cell_7" spec="Sequence" taxon="6" value="1,0,2,2,0,2,0,2,2,0,"/>
+<sequence id="s21_c1_data.txt_cell_8" spec="Sequence" taxon="7" value="1,0,2,2,2,2,0,2,2,0,"/>
+<sequence id="s21_c1_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c1_data.txt_cell_10" spec="Sequence" taxon="9" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c1_data.txt_cell_11" spec="Sequence" taxon="10" value="2,0,2,2,2,2,0,2,2,2,"/>
+<sequence id="s21_c1_data.txt_cell_12" spec="Sequence" taxon="11" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c1_data.txt_cell_13" spec="Sequence" taxon="12" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c1_data.txt_cell_14" spec="Sequence" taxon="13" value="2,0,2,2,2,2,0,2,2,2,"/>
+</data>
+<data  id="s21_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s21_c3_data.txt_cell_3" spec="Sequence" taxon="1" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s21_c3_data.txt_cell_5" spec="Sequence" taxon="2" value="1,0,0,1,0,0,0,2,0,0,"/>
+<sequence id="s21_c3_data.txt_cell_7" spec="Sequence" taxon="3" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s21_c3_data.txt_cell_8" spec="Sequence" taxon="4" value="0,0,0,0,2,2,0,2,0,0,"/>
+<sequence id="s21_c3_data.txt_cell_9" spec="Sequence" taxon="5" value="1,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s21_c3_data.txt_cell_10" spec="Sequence" taxon="6" value="0,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s21_c3_data.txt_cell_11" spec="Sequence" taxon="7" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c3_data.txt_cell_12" spec="Sequence" taxon="8" value="0,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c3_data.txt_cell_13" spec="Sequence" taxon="9" value="0,0,0,0,1,2,0,2,2,0,"/>
+<sequence id="s21_c3_data.txt_cell_14" spec="Sequence" taxon="10" value="0,0,1,1,0,0,0,0,1,0,"/>
+<sequence id="s21_c3_data.txt_cell_16" spec="Sequence" taxon="11" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s21_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s21_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,2,0,2,0,2,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,0,2,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,2,0,2,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,2,2,0,2,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_11" spec="Sequence" taxon="11" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_12" spec="Sequence" taxon="12" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_13" spec="Sequence" taxon="13" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_15" spec="Sequence" taxon="15" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_16" spec="Sequence" taxon="16" value="2,0,0,1,2,0,0,2,0,1,"/>
+<sequence id="s21_c4_data.txt_cell_17" spec="Sequence" taxon="17" value="1,0,1,0,0,2,0,0,2,2,"/>
+<sequence id="s21_c4_data.txt_cell_18" spec="Sequence" taxon="18" value="1,0,0,0,0,2,0,1,2,0,"/>
+<sequence id="s21_c4_data.txt_cell_19" spec="Sequence" taxon="19" value="2,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_20" spec="Sequence" taxon="20" value="2,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_21" spec="Sequence" taxon="21" value="2,0,1,1,1,0,0,0,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_22" spec="Sequence" taxon="22" value="2,0,1,1,1,0,0,0,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_23" spec="Sequence" taxon="23" value="1,1,0,1,0,0,1,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_24" spec="Sequence" taxon="24" value="1,1,0,1,0,0,1,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_25" spec="Sequence" taxon="25" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c4_data.txt_cell_26" spec="Sequence" taxon="26" value="1,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s21_c4_data.txt_cell_27" spec="Sequence" taxon="27" value="1,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s21_c4_data.txt_cell_28" spec="Sequence" taxon="28" value="1,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s21_c4_data.txt_cell_29" spec="Sequence" taxon="29" value="2,0,1,1,1,0,0,1,1,0,"/>
+<sequence id="s21_c4_data.txt_cell_30" spec="Sequence" taxon="30" value="2,0,1,1,1,0,0,0,0,0,"/>
+<sequence id="s21_c4_data.txt_cell_31" spec="Sequence" taxon="31" value="0,0,1,0,0,2,0,0,0,0,"/>
+<sequence id="s21_c4_data.txt_cell_32" spec="Sequence" taxon="32" value="0,0,1,0,2,2,0,0,0,0,"/>
+</data>
+<data  id="s21_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s21_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,0,0,2,0,1,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,1,1,0,0,2,2,2,"/>
+<sequence id="s21_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,2,0,2,0,2,2,0,"/>
+<sequence id="s21_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,2,2,2,0,2,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s21_c5_data.txt_cell_7" spec="Sequence" taxon="6" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s21_c5_data.txt_cell_8" spec="Sequence" taxon="7" value="0,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_9" spec="Sequence" taxon="8" value="0,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_10" spec="Sequence" taxon="9" value="0,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_11" spec="Sequence" taxon="10" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_13" spec="Sequence" taxon="11" value="0,0,0,0,2,2,0,1,1,0,"/>
+<sequence id="s21_c5_data.txt_cell_14" spec="Sequence" taxon="12" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s21_c5_data.txt_cell_22" spec="Sequence" taxon="13" value="1,0,2,2,0,2,0,2,2,2,"/>
+</data>
+<data  id="s3_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s3_c1_data.txt_cell_4" spec="Sequence" taxon="1" value="2,0,1,2,0,0,0,0,2,2,"/>
+<sequence id="s3_c1_data.txt_cell_5" spec="Sequence" taxon="2" value="0,0,1,2,0,0,0,0,2,2,"/>
+<sequence id="s3_c1_data.txt_cell_7" spec="Sequence" taxon="3" value="0,0,1,2,0,0,0,0,2,0,"/>
+<sequence id="s3_c1_data.txt_cell_8" spec="Sequence" taxon="4" value="0,0,2,0,2,2,0,1,2,0,"/>
+<sequence id="s3_c1_data.txt_cell_9" spec="Sequence" taxon="5" value="0,0,0,0,2,2,0,1,2,0,"/>
+<sequence id="s3_c1_data.txt_cell_13" spec="Sequence" taxon="6" value="2,0,0,0,2,0,0,0,2,0,"/>
+<sequence id="s3_c1_data.txt_cell_14" spec="Sequence" taxon="7" value="2,0,0,0,2,0,0,2,2,0,"/>
+<sequence id="s3_c1_data.txt_cell_16" spec="Sequence" taxon="8" value="1,0,2,1,2,0,0,1,1,0,"/>
+<sequence id="s3_c1_data.txt_cell_18" spec="Sequence" taxon="9" value="1,0,2,1,2,0,0,1,1,0,"/>
+<sequence id="s3_c1_data.txt_cell_19" spec="Sequence" taxon="10" value="1,0,2,1,2,0,0,1,1,0,"/>
+</data>
+<data  id="s3_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s3_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,1,2,2,0,2,0,0,"/>
+<sequence id="s3_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s3_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s3_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,1,0,0,0,1,0,0,"/>
+<sequence id="s3_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s3_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s3_c3_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s3_c3_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s3_c3_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,0,1,0,1,2,1,0,"/>
+<sequence id="s3_c3_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,1,0,1,0,1,0,"/>
+</data>
+<data  id="s3_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s3_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="2,1,2,0,2,2,2,1,2,0,"/>
+<sequence id="s3_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,2,0,2,2,2,2,2,2,"/>
+<sequence id="s3_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="2,1,2,0,2,0,2,1,2,0,"/>
+<sequence id="s3_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,2,0,2,0,2,1,2,0,"/>
+<sequence id="s3_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,1,1,1,0,0,2,1,0,"/>
+<sequence id="s3_c5_data.txt_cell_6" spec="Sequence" taxon="6" value="1,1,2,1,2,0,0,1,1,0,"/>
+<sequence id="s3_c5_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,0,1,1,0,2,2,1,0,"/>
+<sequence id="s3_c5_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s3_c5_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,2,2,2,0,0,2,1,0,"/>
+<sequence id="s3_c5_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,0,1,2,0,0,2,1,0,"/>
+</data>
+<data  id="s4_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c1_data.txt_cell_9" spec="Sequence" taxon="1" value="1,0,1,0,1,0,1,2,2,0,"/>
+<sequence id="s4_c1_data.txt_cell_10" spec="Sequence" taxon="2" value="1,0,1,0,1,0,1,2,2,0,"/>
+<sequence id="s4_c1_data.txt_cell_11" spec="Sequence" taxon="3" value="1,0,1,0,1,0,0,1,2,0,"/>
+<sequence id="s4_c1_data.txt_cell_12" spec="Sequence" taxon="4" value="1,0,1,0,1,0,0,1,2,0,"/>
+<sequence id="s4_c1_data.txt_cell_13" spec="Sequence" taxon="5" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s4_c1_data.txt_cell_14" spec="Sequence" taxon="6" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s4_c1_data.txt_cell_15" spec="Sequence" taxon="7" value="1,0,1,1,0,0,0,1,1,0,"/>
+<sequence id="s4_c1_data.txt_cell_16" spec="Sequence" taxon="8" value="1,0,1,1,0,0,0,1,1,0,"/>
+</data>
+<data  id="s4_c10_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c10_data.txt_cell_4" spec="Sequence" taxon="1" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_5" spec="Sequence" taxon="2" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_6" spec="Sequence" taxon="3" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_7" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,2,2,0,"/>
+<sequence id="s4_c10_data.txt_cell_8" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_10" spec="Sequence" taxon="6" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_14" spec="Sequence" taxon="7" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_15" spec="Sequence" taxon="8" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_16" spec="Sequence" taxon="9" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_18" spec="Sequence" taxon="10" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_19" spec="Sequence" taxon="11" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c10_data.txt_cell_21" spec="Sequence" taxon="12" value="1,0,0,0,0,0,0,0,0,0,"/>
+</data>
+<data  id="s4_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c3_data.txt_cell_9" spec="Sequence" taxon="1" value="1,0,0,1,2,0,1,1,1,0,"/>
+<sequence id="s4_c3_data.txt_cell_10" spec="Sequence" taxon="2" value="1,0,0,1,2,0,1,1,1,0,"/>
+<sequence id="s4_c3_data.txt_cell_11" spec="Sequence" taxon="3" value="1,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s4_c3_data.txt_cell_12" spec="Sequence" taxon="4" value="1,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s4_c3_data.txt_cell_13" spec="Sequence" taxon="5" value="0,0,1,1,2,0,1,2,2,0,"/>
+<sequence id="s4_c3_data.txt_cell_14" spec="Sequence" taxon="6" value="0,0,1,1,2,0,1,2,2,0,"/>
+<sequence id="s4_c3_data.txt_cell_15" spec="Sequence" taxon="7" value="2,0,1,1,2,0,1,1,2,0,"/>
+<sequence id="s4_c3_data.txt_cell_16" spec="Sequence" taxon="8" value="2,0,1,1,2,0,1,2,2,2,"/>
+<sequence id="s4_c3_data.txt_cell_17" spec="Sequence" taxon="9" value="2,0,1,1,2,0,1,2,2,2,"/>
+<sequence id="s4_c3_data.txt_cell_18" spec="Sequence" taxon="10" value="2,0,1,1,2,0,1,2,2,2,"/>
+<sequence id="s4_c3_data.txt_cell_19" spec="Sequence" taxon="11" value="1,0,0,1,1,0,1,1,0,0,"/>
+<sequence id="s4_c3_data.txt_cell_20" spec="Sequence" taxon="12" value="1,0,0,1,1,0,1,1,0,0,"/>
+<sequence id="s4_c3_data.txt_cell_21" spec="Sequence" taxon="13" value="1,0,0,1,1,2,1,1,2,0,"/>
+<sequence id="s4_c3_data.txt_cell_22" spec="Sequence" taxon="14" value="1,0,0,1,1,0,1,1,0,0,"/>
+</data>
+<data  id="s4_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c4_data.txt_cell_3" spec="Sequence" taxon="1" value="0,0,0,0,0,0,0,2,0,0,"/>
+<sequence id="s4_c4_data.txt_cell_4" spec="Sequence" taxon="2" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c4_data.txt_cell_5" spec="Sequence" taxon="3" value="1,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s4_c4_data.txt_cell_6" spec="Sequence" taxon="4" value="1,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s4_c4_data.txt_cell_7" spec="Sequence" taxon="5" value="1,0,0,0,0,0,0,0,1,0,"/>
+</data>
+<data  id="s4_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c5_data.txt_cell_4" spec="Sequence" taxon="1" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c5_data.txt_cell_15" spec="Sequence" taxon="2" value="2,0,0,1,2,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_16" spec="Sequence" taxon="3" value="2,0,0,2,2,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_17" spec="Sequence" taxon="4" value="2,0,1,2,2,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_18" spec="Sequence" taxon="5" value="2,0,1,2,2,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_19" spec="Sequence" taxon="6" value="1,1,1,2,1,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_20" spec="Sequence" taxon="7" value="1,1,1,2,1,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_21" spec="Sequence" taxon="8" value="1,0,1,2,1,0,1,1,2,0,"/>
+<sequence id="s4_c5_data.txt_cell_22" spec="Sequence" taxon="9" value="1,0,1,2,1,0,1,1,2,0,"/>
+</data>
+<data  id="s4_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="2,1,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_2" spec="Sequence" taxon="2" value="2,1,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_3" spec="Sequence" taxon="3" value="2,1,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_5" spec="Sequence" taxon="5" value="2,1,1,1,2,2,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_6" spec="Sequence" taxon="6" value="2,1,1,1,2,2,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_7" spec="Sequence" taxon="7" value="2,1,1,1,2,2,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_8" spec="Sequence" taxon="8" value="2,1,1,1,2,2,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_11" spec="Sequence" taxon="11" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_12" spec="Sequence" taxon="12" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_13" spec="Sequence" taxon="13" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,1,1,2,0,1,1,2,0,"/>
+<sequence id="s4_c6_data.txt_cell_15" spec="Sequence" taxon="15" value="2,0,1,1,1,0,1,1,2,0,"/>
+</data>
+<data  id="s4_c7_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s4_c7_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c7_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c7_data.txt_cell_10" spec="Sequence" taxon="3" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s4_c7_data.txt_cell_11" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,2,2,0,"/>
+</data>
+<data  id="s5_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c1_data.txt_cell_3" spec="Sequence" taxon="2" value="0,0,0,2,0,0,0,0,2,0,"/>
+<sequence id="s5_c1_data.txt_cell_4" spec="Sequence" taxon="3" value="0,0,0,0,1,0,0,0,2,0,"/>
+<sequence id="s5_c1_data.txt_cell_5" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s5_c1_data.txt_cell_6" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s5_c1_data.txt_cell_7" spec="Sequence" taxon="6" value="1,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s5_c1_data.txt_cell_8" spec="Sequence" taxon="7" value="1,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s5_c1_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,0,2,2,0,0,2,2,2,"/>
+<sequence id="s5_c1_data.txt_cell_10" spec="Sequence" taxon="9" value="1,0,0,2,2,0,0,2,2,2,"/>
+</data>
+<data  id="s5_c10_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c10_data.txt_cell_1" spec="Sequence" taxon="1" value="2,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_2" spec="Sequence" taxon="2" value="2,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_3" spec="Sequence" taxon="3" value="2,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_4" spec="Sequence" taxon="4" value="2,2,2,2,2,2,2,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_5" spec="Sequence" taxon="5" value="2,2,2,2,2,0,2,2,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_6" spec="Sequence" taxon="6" value="2,2,2,2,2,0,2,2,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_13" spec="Sequence" taxon="7" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_14" spec="Sequence" taxon="8" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_15" spec="Sequence" taxon="9" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_16" spec="Sequence" taxon="10" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_17" spec="Sequence" taxon="11" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_18" spec="Sequence" taxon="12" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_19" spec="Sequence" taxon="13" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_20" spec="Sequence" taxon="14" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_21" spec="Sequence" taxon="15" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_22" spec="Sequence" taxon="16" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_23" spec="Sequence" taxon="17" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_24" spec="Sequence" taxon="18" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_25" spec="Sequence" taxon="19" value="1,0,0,1,1,0,2,2,2,2,"/>
+<sequence id="s5_c10_data.txt_cell_26" spec="Sequence" taxon="20" value="1,0,0,1,2,2,2,1,2,0,"/>
+<sequence id="s5_c10_data.txt_cell_27" spec="Sequence" taxon="21" value="1,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s5_c10_data.txt_cell_28" spec="Sequence" taxon="22" value="1,0,0,1,1,0,0,1,2,0,"/>
+<sequence id="s5_c10_data.txt_cell_29" spec="Sequence" taxon="23" value="1,2,2,2,1,0,1,2,2,2,"/>
+<sequence id="s5_c10_data.txt_cell_30" spec="Sequence" taxon="24" value="1,2,2,2,1,0,1,2,2,2,"/>
+<sequence id="s5_c10_data.txt_cell_31" spec="Sequence" taxon="25" value="1,2,2,2,1,0,1,2,1,0,"/>
+<sequence id="s5_c10_data.txt_cell_32" spec="Sequence" taxon="26" value="1,2,2,2,1,0,1,2,1,0,"/>
+</data>
+<data  id="s5_c11_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c11_data.txt_cell_1" spec="Sequence" taxon="1" value="2,1,1,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_2" spec="Sequence" taxon="2" value="2,1,1,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_3" spec="Sequence" taxon="3" value="2,1,1,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,1,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,0,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,0,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,1,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c11_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,1,1,2,2,2,2,2,2,"/>
+</data>
+<data  id="s5_c12_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c12_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,1,1,1,0,2,1,1,0,"/>
+<sequence id="s5_c12_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,1,1,1,0,2,1,1,0,"/>
+<sequence id="s5_c12_data.txt_cell_3" spec="Sequence" taxon="3" value="2,1,0,1,1,0,2,1,1,0,"/>
+<sequence id="s5_c12_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,0,1,1,0,2,1,1,0,"/>
+<sequence id="s5_c12_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,1,0,1,2,1,2,1,"/>
+<sequence id="s5_c12_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,1,0,1,2,1,2,1,"/>
+<sequence id="s5_c12_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,2,1,0,1,2,1,2,1,"/>
+<sequence id="s5_c12_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,2,1,0,1,2,1,2,1,"/>
+<sequence id="s5_c12_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,2,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c12_data.txt_cell_12" spec="Sequence" taxon="10" value="1,1,2,1,2,2,2,2,2,2,"/>
+<sequence id="s5_c12_data.txt_cell_13" spec="Sequence" taxon="11" value="1,0,2,1,1,0,1,1,2,1,"/>
+<sequence id="s5_c12_data.txt_cell_14" spec="Sequence" taxon="12" value="1,0,2,1,1,0,1,1,2,1,"/>
+<sequence id="s5_c12_data.txt_cell_15" spec="Sequence" taxon="13" value="1,0,2,1,1,0,1,0,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_16" spec="Sequence" taxon="14" value="1,0,2,1,1,0,1,0,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_17" spec="Sequence" taxon="15" value="1,0,2,1,1,0,2,0,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_19" spec="Sequence" taxon="16" value="1,0,2,1,1,0,2,0,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_20" spec="Sequence" taxon="17" value="1,0,2,1,1,0,2,0,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_21" spec="Sequence" taxon="18" value="1,0,2,2,2,2,0,1,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_22" spec="Sequence" taxon="19" value="1,0,2,2,2,2,0,1,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_23" spec="Sequence" taxon="20" value="2,0,2,2,2,2,0,1,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_24" spec="Sequence" taxon="21" value="0,0,2,2,2,2,0,1,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_25" spec="Sequence" taxon="22" value="1,0,2,2,2,2,1,2,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_26" spec="Sequence" taxon="23" value="1,0,2,2,2,2,1,2,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_27" spec="Sequence" taxon="24" value="1,0,2,2,2,2,1,2,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_28" spec="Sequence" taxon="25" value="1,0,2,2,2,2,1,2,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_29" spec="Sequence" taxon="26" value="1,0,2,2,2,2,1,2,2,0,"/>
+<sequence id="s5_c12_data.txt_cell_30" spec="Sequence" taxon="27" value="1,0,2,2,2,2,1,2,2,0,"/>
+</data>
+<data  id="s5_c13_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c13_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,1,1,0,0,0,2,0,"/>
+<sequence id="s5_c13_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,2,2,0,1,0,0,"/>
+<sequence id="s5_c13_data.txt_cell_7" spec="Sequence" taxon="3" value="1,0,0,1,2,2,0,1,0,0,"/>
+<sequence id="s5_c13_data.txt_cell_8" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s5_c13_data.txt_cell_13" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c13_data.txt_cell_14" spec="Sequence" taxon="6" value="0,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s5_c13_data.txt_cell_15" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c13_data.txt_cell_16" spec="Sequence" taxon="8" value="0,0,0,0,0,0,0,0,0,0,"/>
+</data>
+<data  id="s5_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_9" spec="Sequence" taxon="8" value="0,2,0,0,0,0,0,2,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_10" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,2,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_13" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_14" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s5_c2_data.txt_cell_15" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,0,0,0,"/>
+</data>
+<data  id="s5_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,1,1,1,0,1,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,1,1,1,0,1,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,1,1,1,0,1,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="2,2,1,1,1,0,1,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,1,1,1,0,0,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,1,1,1,0,0,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,1,1,1,0,0,2,0,0,"/>
+<sequence id="s5_c3_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,1,1,1,0,0,2,0,0,"/>
+<sequence id="s5_c3_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,0,0,1,0,0,2,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,0,0,2,2,0,2,2,0,"/>
+<sequence id="s5_c3_data.txt_cell_12" spec="Sequence" taxon="11" value="1,0,0,2,0,0,0,2,2,0,"/>
+<sequence id="s5_c3_data.txt_cell_13" spec="Sequence" taxon="12" value="1,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_14" spec="Sequence" taxon="13" value="1,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_15" spec="Sequence" taxon="14" value="1,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_16" spec="Sequence" taxon="15" value="1,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_17" spec="Sequence" taxon="16" value="1,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s5_c3_data.txt_cell_18" spec="Sequence" taxon="17" value="2,2,0,1,0,0,0,0,0,0,"/>
+<sequence id="s5_c3_data.txt_cell_23" spec="Sequence" taxon="18" value="1,0,0,2,2,2,2,2,2,2,"/>
+<sequence id="s5_c3_data.txt_cell_24" spec="Sequence" taxon="19" value="0,2,0,0,1,0,0,0,2,0,"/>
+<sequence id="s5_c3_data.txt_cell_25" spec="Sequence" taxon="20" value="0,0,0,1,1,0,0,0,2,0,"/>
+<sequence id="s5_c3_data.txt_cell_26" spec="Sequence" taxon="21" value="0,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_27" spec="Sequence" taxon="22" value="0,0,0,0,2,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_28" spec="Sequence" taxon="23" value="2,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_29" spec="Sequence" taxon="24" value="0,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_31" spec="Sequence" taxon="25" value="2,0,2,0,0,0,0,0,1,0,"/>
+<sequence id="s5_c3_data.txt_cell_33" spec="Sequence" taxon="26" value="0,0,0,1,1,0,1,0,1,0,"/>
+</data>
+<data  id="s5_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,2,1,2,0,2,2,1,0,"/>
+<sequence id="s5_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,2,1,2,0,2,2,1,0,"/>
+<sequence id="s5_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,2,1,2,0,2,2,1,0,"/>
+<sequence id="s5_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="2,1,2,1,2,0,2,2,1,0,"/>
+<sequence id="s5_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="2,1,2,1,2,0,2,2,1,0,"/>
+<sequence id="s5_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="2,1,2,1,2,0,2,2,1,0,"/>
+<sequence id="s5_c4_data.txt_cell_13" spec="Sequence" taxon="7" value="1,0,2,1,2,0,0,2,2,0,"/>
+<sequence id="s5_c4_data.txt_cell_14" spec="Sequence" taxon="8" value="1,0,2,1,2,0,0,2,2,0,"/>
+<sequence id="s5_c4_data.txt_cell_16" spec="Sequence" taxon="9" value="1,0,0,1,2,0,1,2,2,0,"/>
+</data>
+<data  id="s5_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,1,1,0,1,2,0,0,"/>
+<sequence id="s5_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,1,0,1,2,0,0,"/>
+<sequence id="s5_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,1,0,0,0,1,2,0,"/>
+<sequence id="s5_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s5_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,1,2,0,"/>
+<sequence id="s5_c5_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,0,0,0,0,1,1,0,"/>
+<sequence id="s5_c5_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c5_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c5_data.txt_cell_10" spec="Sequence" taxon="9" value="1,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c5_data.txt_cell_11" spec="Sequence" taxon="10" value="1,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c5_data.txt_cell_12" spec="Sequence" taxon="11" value="0,1,0,0,1,0,1,2,2,2,"/>
+<sequence id="s5_c5_data.txt_cell_13" spec="Sequence" taxon="12" value="0,1,0,0,1,0,1,2,2,2,"/>
+<sequence id="s5_c5_data.txt_cell_14" spec="Sequence" taxon="13" value="0,1,0,0,1,0,1,1,2,0,"/>
+<sequence id="s5_c5_data.txt_cell_15" spec="Sequence" taxon="14" value="1,0,0,1,1,0,1,1,1,0,"/>
+</data>
+<data  id="s5_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="0,1,0,0,1,0,1,1,2,0,"/>
+<sequence id="s5_c6_data.txt_cell_3" spec="Sequence" taxon="2" value="1,0,0,1,2,0,2,1,1,0,"/>
+<sequence id="s5_c6_data.txt_cell_4" spec="Sequence" taxon="3" value="1,0,0,1,2,0,2,1,1,0,"/>
+</data>
+<data  id="s5_c7_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c7_data.txt_cell_3" spec="Sequence" taxon="1" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_4" spec="Sequence" taxon="2" value="1,1,1,1,1,0,1,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_10" spec="Sequence" taxon="3" value="1,0,0,0,1,0,1,0,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_11" spec="Sequence" taxon="4" value="1,0,0,0,1,0,1,0,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_12" spec="Sequence" taxon="5" value="1,0,0,0,1,0,1,0,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_13" spec="Sequence" taxon="6" value="1,0,0,0,1,0,1,0,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_17" spec="Sequence" taxon="7" value="1,0,1,0,1,0,1,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_20" spec="Sequence" taxon="8" value="1,0,0,2,1,0,0,1,2,0,"/>
+<sequence id="s5_c7_data.txt_cell_21" spec="Sequence" taxon="9" value="1,0,0,2,1,0,0,1,2,0,"/>
+<sequence id="s5_c7_data.txt_cell_22" spec="Sequence" taxon="10" value="1,0,0,2,1,0,0,1,2,0,"/>
+<sequence id="s5_c7_data.txt_cell_23" spec="Sequence" taxon="11" value="1,0,0,2,1,0,0,1,2,0,"/>
+<sequence id="s5_c7_data.txt_cell_24" spec="Sequence" taxon="12" value="1,1,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_25" spec="Sequence" taxon="13" value="1,1,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_26" spec="Sequence" taxon="14" value="1,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_27" spec="Sequence" taxon="15" value="1,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_32" spec="Sequence" taxon="16" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_33" spec="Sequence" taxon="17" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_34" spec="Sequence" taxon="18" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_35" spec="Sequence" taxon="19" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_36" spec="Sequence" taxon="20" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_37" spec="Sequence" taxon="21" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_38" spec="Sequence" taxon="22" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_39" spec="Sequence" taxon="23" value="2,2,0,1,1,0,0,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_40" spec="Sequence" taxon="24" value="2,0,0,1,1,0,2,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_41" spec="Sequence" taxon="25" value="2,0,0,1,1,0,2,2,2,2,"/>
+<sequence id="s5_c7_data.txt_cell_42" spec="Sequence" taxon="26" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_43" spec="Sequence" taxon="27" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_44" spec="Sequence" taxon="28" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_45" spec="Sequence" taxon="29" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_46" spec="Sequence" taxon="30" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s5_c7_data.txt_cell_47" spec="Sequence" taxon="31" value="2,0,0,1,1,0,1,1,1,0,"/>
+</data>
+<data  id="s5_c9_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s5_c9_data.txt_cell_1" spec="Sequence" taxon="1" value="1,2,1,0,2,1,2,1,1,0,"/>
+<sequence id="s5_c9_data.txt_cell_2" spec="Sequence" taxon="2" value="1,2,1,0,2,1,2,1,1,0,"/>
+<sequence id="s5_c9_data.txt_cell_3" spec="Sequence" taxon="3" value="1,2,0,0,2,1,2,1,1,0,"/>
+<sequence id="s5_c9_data.txt_cell_5" spec="Sequence" taxon="4" value="0,1,1,1,1,0,1,1,2,0,"/>
+<sequence id="s5_c9_data.txt_cell_6" spec="Sequence" taxon="5" value="0,1,1,1,1,0,1,1,2,0,"/>
+<sequence id="s5_c9_data.txt_cell_7" spec="Sequence" taxon="6" value="0,1,1,1,2,0,1,1,2,0,"/>
+</data>
+<data  id="s6_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s6_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,1,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,2,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,2,1,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,2,0,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,1,1,1,0,1,2,2,0,"/>
+<sequence id="s6_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,1,1,1,0,1,2,2,0,"/>
+</data>
+<data  id="s6_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s6_c2_data.txt_cell_6" spec="Sequence" taxon="1" value="1,0,2,1,2,2,0,1,2,0,"/>
+<sequence id="s6_c2_data.txt_cell_7" spec="Sequence" taxon="2" value="2,0,0,0,1,0,0,1,0,0,"/>
+<sequence id="s6_c2_data.txt_cell_10" spec="Sequence" taxon="3" value="2,0,0,0,0,0,0,2,2,0,"/>
+</data>
+<data  id="s6_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s6_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,0,2,0,2,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_6" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s6_c3_data.txt_cell_7" spec="Sequence" taxon="6" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_8" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_9" spec="Sequence" taxon="8" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_10" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_12" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s6_c3_data.txt_cell_14" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_16" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_17" spec="Sequence" taxon="13" value="0,0,0,0,0,0,2,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_18" spec="Sequence" taxon="14" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_19" spec="Sequence" taxon="15" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_20" spec="Sequence" taxon="16" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_21" spec="Sequence" taxon="17" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_22" spec="Sequence" taxon="18" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_23" spec="Sequence" taxon="19" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_24" spec="Sequence" taxon="20" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_25" spec="Sequence" taxon="21" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s6_c3_data.txt_cell_28" spec="Sequence" taxon="22" value="0,0,0,0,0,0,0,0,0,0,"/>
+</data>
+<data  id="s7_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s7_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,1,2,2,2,2,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,1,2,2,2,2,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,1,2,2,1,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,1,2,2,1,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,1,1,0,2,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,2,2,2,0,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="1,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="1,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="2,0,1,1,1,0,2,1,2,0,"/>
+<sequence id="s7_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,1,1,1,0,0,1,2,0,"/>
+<sequence id="s7_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="2,0,1,1,1,0,0,2,2,2,"/>
+<sequence id="s7_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="2,0,1,1,1,0,1,2,2,2,"/>
+<sequence id="s7_c1_data.txt_cell_13" spec="Sequence" taxon="13" value="2,0,1,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,1,1,1,0,2,1,1,0,"/>
+<sequence id="s7_c1_data.txt_cell_15" spec="Sequence" taxon="15" value="2,0,1,1,1,0,0,1,2,2,"/>
+<sequence id="s7_c1_data.txt_cell_16" spec="Sequence" taxon="16" value="2,0,1,1,1,0,0,1,2,2,"/>
+<sequence id="s7_c1_data.txt_cell_17" spec="Sequence" taxon="17" value="1,0,0,0,0,0,0,2,0,0,"/>
+<sequence id="s7_c1_data.txt_cell_20" spec="Sequence" taxon="18" value="0,0,0,0,0,0,0,0,0,0,"/>
+</data>
+<data  id="s7_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s7_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_4" spec="Sequence" taxon="3" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_5" spec="Sequence" taxon="4" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_7" spec="Sequence" taxon="5" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_8" spec="Sequence" taxon="6" value="2,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_9" spec="Sequence" taxon="7" value="1,0,1,1,1,0,1,1,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_11" spec="Sequence" taxon="8" value="1,0,0,1,1,0,1,2,1,0,"/>
+<sequence id="s7_c2_data.txt_cell_12" spec="Sequence" taxon="9" value="1,0,0,1,1,0,1,1,1,0,"/>
+</data>
+<data  id="s7_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s7_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,1,0,0,1,1,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="2,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,0,2,0,0,1,1,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,0,2,0,0,1,1,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_9" spec="Sequence" taxon="9" value="1,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_10" spec="Sequence" taxon="10" value="2,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_11" spec="Sequence" taxon="11" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_12" spec="Sequence" taxon="12" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_13" spec="Sequence" taxon="13" value="2,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s7_c3_data.txt_cell_14" spec="Sequence" taxon="14" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_15" spec="Sequence" taxon="15" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_16" spec="Sequence" taxon="16" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_17" spec="Sequence" taxon="17" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_19" spec="Sequence" taxon="18" value="2,0,0,0,0,0,0,0,1,0,"/>
+<sequence id="s7_c3_data.txt_cell_21" spec="Sequence" taxon="19" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_22" spec="Sequence" taxon="20" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_23" spec="Sequence" taxon="21" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_26" spec="Sequence" taxon="22" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_28" spec="Sequence" taxon="23" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_31" spec="Sequence" taxon="24" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_32" spec="Sequence" taxon="25" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_33" spec="Sequence" taxon="26" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s7_c3_data.txt_cell_34" spec="Sequence" taxon="27" value="0,0,0,0,0,0,0,0,0,0,"/>
+</data>
+<data  id="s7_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s7_c5_data.txt_cell_3" spec="Sequence" taxon="1" value="2,0,2,2,1,0,2,2,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_4" spec="Sequence" taxon="2" value="1,0,0,2,1,0,2,2,2,0,"/>
+<sequence id="s7_c5_data.txt_cell_5" spec="Sequence" taxon="3" value="2,0,0,2,1,0,2,2,2,0,"/>
+<sequence id="s7_c5_data.txt_cell_6" spec="Sequence" taxon="4" value="1,1,0,1,1,0,0,1,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_7" spec="Sequence" taxon="5" value="1,1,1,2,1,0,0,2,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_8" spec="Sequence" taxon="6" value="2,1,0,1,1,0,0,2,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_9" spec="Sequence" taxon="7" value="1,1,1,2,1,0,0,2,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_10" spec="Sequence" taxon="8" value="2,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_11" spec="Sequence" taxon="9" value="2,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_12" spec="Sequence" taxon="10" value="2,0,0,0,1,0,0,1,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_13" spec="Sequence" taxon="11" value="2,0,0,2,1,0,0,1,1,0,"/>
+<sequence id="s7_c5_data.txt_cell_14" spec="Sequence" taxon="12" value="2,0,2,2,2,2,2,0,2,0,"/>
+<sequence id="s7_c5_data.txt_cell_15" spec="Sequence" taxon="13" value="2,2,2,2,2,2,2,0,2,0,"/>
+</data>
+<data  id="s7_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s7_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="2,2,2,2,2,2,1,1,2,0,"/>
+<sequence id="s7_c6_data.txt_cell_2" spec="Sequence" taxon="2" value="2,2,2,2,2,2,0,1,1,0,"/>
+<sequence id="s7_c6_data.txt_cell_4" spec="Sequence" taxon="3" value="0,0,0,1,0,0,2,2,0,0,"/>
+<sequence id="s7_c6_data.txt_cell_5" spec="Sequence" taxon="4" value="0,0,0,0,0,0,2,0,2,0,"/>
+</data>
+<data  id="s8_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s8_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s8_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,2,2,2,2,2,2,2,1,0,"/>
+<sequence id="s8_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,2,2,2,2,2,1,1,0,"/>
+<sequence id="s8_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,2,2,2,2,2,1,1,0,"/>
+<sequence id="s8_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,2,2,2,2,2,1,1,0,"/>
+<sequence id="s8_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,2,2,2,2,1,1,0,"/>
+<sequence id="s8_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="2,2,0,2,2,0,1,1,2,2,"/>
+<sequence id="s8_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="2,2,0,2,2,0,1,1,2,2,"/>
+<sequence id="s8_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="2,2,2,2,1,0,1,1,2,2,"/>
+<sequence id="s8_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="2,2,2,2,1,0,1,1,2,2,"/>
+<sequence id="s8_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="2,2,2,2,1,0,1,1,2,0,"/>
+<sequence id="s8_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="2,2,2,2,1,0,1,1,2,0,"/>
+</data>
+<data  id="s8_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s8_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,1,1,2,0,0,1,2,2,"/>
+<sequence id="s8_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,1,1,2,0,0,1,2,2,"/>
+<sequence id="s8_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,1,1,2,0,1,1,2,2,"/>
+<sequence id="s8_c2_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,1,1,2,0,1,1,2,2,"/>
+<sequence id="s8_c2_data.txt_cell_9" spec="Sequence" taxon="5" value="2,0,2,2,0,0,0,1,2,0,"/>
+<sequence id="s8_c2_data.txt_cell_10" spec="Sequence" taxon="6" value="2,0,2,2,0,0,0,1,2,0,"/>
+</data>
+<data  id="s8_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s8_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,0,0,0,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,0,0,0,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,0,0,0,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="2,0,0,0,0,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,2,2,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,2,2,0,1,2,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_7" spec="Sequence" taxon="7" value="2,0,0,2,0,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_8" spec="Sequence" taxon="8" value="2,0,0,2,0,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_9" spec="Sequence" taxon="9" value="1,1,0,0,2,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_10" spec="Sequence" taxon="10" value="1,1,0,0,2,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_11" spec="Sequence" taxon="11" value="1,1,0,0,2,0,1,1,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_12" spec="Sequence" taxon="12" value="1,0,0,0,2,0,2,0,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_13" spec="Sequence" taxon="13" value="1,0,0,0,2,0,2,0,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_14" spec="Sequence" taxon="14" value="1,0,0,0,2,0,2,0,1,0,"/>
+<sequence id="s8_c3_data.txt_cell_15" spec="Sequence" taxon="15" value="1,0,0,0,2,0,2,0,1,0,"/>
+</data>
+<data  id="s8_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s8_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,1,1,1,0,1,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_3" spec="Sequence" taxon="3" value="2,2,1,1,1,0,1,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_4" spec="Sequence" taxon="4" value="2,2,1,1,1,0,1,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_5" spec="Sequence" taxon="5" value="2,0,1,1,1,0,2,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_6" spec="Sequence" taxon="6" value="2,0,1,1,1,0,2,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_8" spec="Sequence" taxon="7" value="2,0,1,1,1,0,1,1,2,2,"/>
+<sequence id="s8_c4_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s8_c4_data.txt_cell_11" spec="Sequence" taxon="9" value="1,0,0,1,0,0,0,1,1,0,"/>
+<sequence id="s8_c4_data.txt_cell_14" spec="Sequence" taxon="10" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s8_c4_data.txt_cell_15" spec="Sequence" taxon="11" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s8_c4_data.txt_cell_16" spec="Sequence" taxon="12" value="1,0,0,1,2,0,2,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_17" spec="Sequence" taxon="13" value="1,0,0,1,2,0,2,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_18" spec="Sequence" taxon="14" value="1,0,0,1,2,0,2,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_19" spec="Sequence" taxon="15" value="1,0,0,1,2,0,2,1,2,0,"/>
+<sequence id="s8_c4_data.txt_cell_20" spec="Sequence" taxon="16" value="1,0,0,1,2,0,2,1,2,0,"/>
+</data>
+<data  id="s8_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s8_c5_data.txt_cell_3" spec="Sequence" taxon="1" value="2,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_5" spec="Sequence" taxon="2" value="1,0,0,2,0,0,0,0,2,0,"/>
+<sequence id="s8_c5_data.txt_cell_6" spec="Sequence" taxon="3" value="1,0,0,2,0,0,0,0,2,0,"/>
+<sequence id="s8_c5_data.txt_cell_7" spec="Sequence" taxon="4" value="1,0,0,2,0,0,0,0,2,0,"/>
+<sequence id="s8_c5_data.txt_cell_8" spec="Sequence" taxon="5" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s8_c5_data.txt_cell_9" spec="Sequence" taxon="6" value="1,0,0,0,2,0,0,0,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_10" spec="Sequence" taxon="7" value="1,0,0,0,2,0,0,0,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_18" spec="Sequence" taxon="8" value="0,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s8_c5_data.txt_cell_19" spec="Sequence" taxon="9" value="0,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s8_c5_data.txt_cell_20" spec="Sequence" taxon="10" value="1,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_21" spec="Sequence" taxon="11" value="0,0,0,2,0,0,1,0,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_22" spec="Sequence" taxon="12" value="1,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s8_c5_data.txt_cell_23" spec="Sequence" taxon="13" value="0,0,0,1,2,0,0,1,0,0,"/>
+<sequence id="s8_c5_data.txt_cell_24" spec="Sequence" taxon="14" value="1,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s8_c5_data.txt_cell_25" spec="Sequence" taxon="15" value="1,0,0,1,2,0,0,1,2,0,"/>
+<sequence id="s8_c5_data.txt_cell_26" spec="Sequence" taxon="16" value="1,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_27" spec="Sequence" taxon="17" value="1,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_30" spec="Sequence" taxon="18" value="2,0,0,2,2,0,0,1,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_31" spec="Sequence" taxon="19" value="2,0,0,2,2,0,0,1,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_32" spec="Sequence" taxon="20" value="2,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_33" spec="Sequence" taxon="21" value="2,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s8_c5_data.txt_cell_34" spec="Sequence" taxon="22" value="1,0,0,1,2,0,0,0,2,0,"/>
+<sequence id="s8_c5_data.txt_cell_35" spec="Sequence" taxon="23" value="1,0,0,1,2,0,1,0,2,0,"/>
+</data>
+<data  id="s8_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s8_c6_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,2,2,0,2,0,2,2,2,"/>
+<sequence id="s8_c6_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,0,0,0,0,2,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,2,2,0,0,1,2,0,"/>
+<sequence id="s8_c6_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,0,2,2,0,0,1,2,0,"/>
+<sequence id="s8_c6_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,2,2,0,0,0,1,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,2,2,0,0,0,1,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,0,0,0,2,0,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,0,0,2,0,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,0,0,2,0,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_12" spec="Sequence" taxon="12" value="0,0,0,0,0,0,2,0,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_13" spec="Sequence" taxon="13" value="0,0,0,0,0,0,2,1,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_14" spec="Sequence" taxon="14" value="0,0,0,0,0,0,2,1,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_16" spec="Sequence" taxon="15" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_17" spec="Sequence" taxon="16" value="1,0,2,0,1,1,0,1,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_18" spec="Sequence" taxon="17" value="1,0,1,0,1,1,0,1,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_20" spec="Sequence" taxon="18" value="1,0,1,0,1,1,0,2,0,0,"/>
+<sequence id="s8_c6_data.txt_cell_21" spec="Sequence" taxon="19" value="0,0,2,2,2,0,0,1,2,0,"/>
+<sequence id="s8_c6_data.txt_cell_23" spec="Sequence" taxon="20" value="0,0,2,1,2,0,1,1,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_24" spec="Sequence" taxon="21" value="0,0,2,1,2,0,1,1,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_25" spec="Sequence" taxon="22" value="1,0,1,2,2,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_26" spec="Sequence" taxon="23" value="1,0,1,2,2,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_27" spec="Sequence" taxon="24" value="1,0,1,2,2,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_28" spec="Sequence" taxon="25" value="1,0,1,2,2,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_29" spec="Sequence" taxon="26" value="2,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_30" spec="Sequence" taxon="27" value="2,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_31" spec="Sequence" taxon="28" value="2,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s8_c6_data.txt_cell_32" spec="Sequence" taxon="29" value="2,0,0,2,1,0,0,2,1,0,"/>
+</data>
+<data  id="s9_c1_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s9_c1_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s9_c1_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s9_c1_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s9_c1_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s9_c1_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s9_c1_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s9_c1_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_8" spec="Sequence" taxon="8" value="0,0,0,2,0,0,0,0,0,0,"/>
+<sequence id="s9_c1_data.txt_cell_9" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c1_data.txt_cell_10" spec="Sequence" taxon="10" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c1_data.txt_cell_11" spec="Sequence" taxon="11" value="0,0,0,0,0,0,2,0,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_12" spec="Sequence" taxon="12" value="0,0,0,0,0,0,2,0,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_13" spec="Sequence" taxon="13" value="0,0,0,1,0,0,0,0,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_15" spec="Sequence" taxon="14" value="2,0,1,2,1,0,1,1,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_16" spec="Sequence" taxon="15" value="2,0,1,2,1,0,1,1,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_19" spec="Sequence" taxon="16" value="2,0,2,2,1,0,1,1,2,0,"/>
+<sequence id="s9_c1_data.txt_cell_20" spec="Sequence" taxon="17" value="2,0,1,2,1,0,1,1,2,0,"/>
+</data>
+<data  id="s9_c2_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s9_c2_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,0,0,0,1,2,2,0,"/>
+<sequence id="s9_c2_data.txt_cell_2" spec="Sequence" taxon="2" value="0,0,0,0,2,0,0,0,2,0,"/>
+<sequence id="s9_c2_data.txt_cell_3" spec="Sequence" taxon="3" value="2,0,2,0,1,0,2,2,1,0,"/>
+<sequence id="s9_c2_data.txt_cell_5" spec="Sequence" taxon="4" value="0,0,0,0,0,2,1,2,2,0,"/>
+<sequence id="s9_c2_data.txt_cell_6" spec="Sequence" taxon="5" value="0,0,0,0,0,0,2,0,1,0,"/>
+<sequence id="s9_c2_data.txt_cell_7" spec="Sequence" taxon="6" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c2_data.txt_cell_8" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c2_data.txt_cell_9" spec="Sequence" taxon="8" value="0,0,2,0,2,2,2,2,0,0,"/>
+<sequence id="s9_c2_data.txt_cell_11" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c2_data.txt_cell_13" spec="Sequence" taxon="10" value="0,0,0,2,0,0,0,1,1,0,"/>
+<sequence id="s9_c2_data.txt_cell_15" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s9_c2_data.txt_cell_16" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,1,0,0,"/>
+<sequence id="s9_c2_data.txt_cell_17" spec="Sequence" taxon="13" value="2,0,2,2,1,0,1,1,1,0,"/>
+<sequence id="s9_c2_data.txt_cell_18" spec="Sequence" taxon="14" value="2,0,2,2,1,0,1,2,2,2,"/>
+<sequence id="s9_c2_data.txt_cell_19" spec="Sequence" taxon="15" value="2,0,0,2,1,0,0,1,1,0,"/>
+</data>
+<data  id="s9_c3_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s9_c3_data.txt_cell_1" spec="Sequence" taxon="1" value="1,0,0,1,2,0,0,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_2" spec="Sequence" taxon="2" value="1,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s9_c3_data.txt_cell_3" spec="Sequence" taxon="3" value="1,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s9_c3_data.txt_cell_4" spec="Sequence" taxon="4" value="1,0,0,1,1,0,0,1,2,2,"/>
+<sequence id="s9_c3_data.txt_cell_5" spec="Sequence" taxon="5" value="1,0,1,1,2,0,1,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_6" spec="Sequence" taxon="6" value="1,0,2,1,2,0,1,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_8" spec="Sequence" taxon="7" value="1,0,1,1,2,0,1,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_11" spec="Sequence" taxon="8" value="1,0,0,2,1,0,0,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_12" spec="Sequence" taxon="9" value="1,0,0,2,1,0,0,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_13" spec="Sequence" taxon="10" value="1,0,0,2,2,0,0,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_14" spec="Sequence" taxon="11" value="1,0,0,2,2,0,0,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_15" spec="Sequence" taxon="12" value="1,0,0,2,0,0,0,2,2,0,"/>
+<sequence id="s9_c3_data.txt_cell_17" spec="Sequence" taxon="13" value="1,0,0,2,0,0,0,2,2,0,"/>
+<sequence id="s9_c3_data.txt_cell_18" spec="Sequence" taxon="14" value="1,0,0,2,0,0,0,2,2,0,"/>
+<sequence id="s9_c3_data.txt_cell_19" spec="Sequence" taxon="15" value="1,0,0,2,1,0,0,2,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_20" spec="Sequence" taxon="16" value="1,0,1,1,1,0,0,2,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_21" spec="Sequence" taxon="17" value="1,0,0,1,1,0,0,2,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_22" spec="Sequence" taxon="18" value="1,0,2,1,2,0,0,2,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_23" spec="Sequence" taxon="19" value="1,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_24" spec="Sequence" taxon="20" value="1,0,0,1,1,0,1,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_25" spec="Sequence" taxon="21" value="2,0,1,1,1,0,1,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_26" spec="Sequence" taxon="22" value="2,0,1,1,1,0,0,1,1,0,"/>
+<sequence id="s9_c3_data.txt_cell_27" spec="Sequence" taxon="23" value="2,0,2,1,0,0,0,2,2,0,"/>
+<sequence id="s9_c3_data.txt_cell_28" spec="Sequence" taxon="24" value="2,0,2,1,1,0,1,2,2,0,"/>
+<sequence id="s9_c3_data.txt_cell_29" spec="Sequence" taxon="25" value="0,0,2,2,1,0,1,2,2,0,"/>
+<sequence id="s9_c3_data.txt_cell_30" spec="Sequence" taxon="26" value="0,0,2,2,1,0,0,2,2,0,"/>
+</data>
+<data  id="s9_c4_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s9_c4_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_3" spec="Sequence" taxon="2" value="0,0,0,1,0,0,0,2,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_4" spec="Sequence" taxon="3" value="1,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_5" spec="Sequence" taxon="4" value="0,0,0,1,0,0,0,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_6" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_7" spec="Sequence" taxon="6" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_8" spec="Sequence" taxon="7" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_9" spec="Sequence" taxon="8" value="1,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_10" spec="Sequence" taxon="9" value="0,0,0,0,0,0,0,2,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_12" spec="Sequence" taxon="10" value="0,0,0,0,0,0,2,0,0,0,"/>
+<sequence id="s9_c4_data.txt_cell_13" spec="Sequence" taxon="11" value="1,0,0,2,0,0,0,2,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_14" spec="Sequence" taxon="12" value="0,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s9_c4_data.txt_cell_15" spec="Sequence" taxon="13" value="0,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s9_c4_data.txt_cell_22" spec="Sequence" taxon="14" value="1,0,2,2,2,2,1,2,2,2,"/>
+<sequence id="s9_c4_data.txt_cell_23" spec="Sequence" taxon="15" value="1,0,2,2,2,2,2,2,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_25" spec="Sequence" taxon="16" value="0,0,0,0,0,2,1,2,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_26" spec="Sequence" taxon="17" value="0,0,0,2,0,0,0,0,1,0,"/>
+<sequence id="s9_c4_data.txt_cell_27" spec="Sequence" taxon="18" value="0,0,0,1,0,0,0,0,1,0,"/>
+<sequence id="s9_c4_data.txt_cell_28" spec="Sequence" taxon="19" value="0,0,0,0,0,0,1,1,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_29" spec="Sequence" taxon="20" value="0,0,0,0,0,0,1,1,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_30" spec="Sequence" taxon="21" value="0,0,0,0,0,0,2,1,2,0,"/>
+<sequence id="s9_c4_data.txt_cell_31" spec="Sequence" taxon="22" value="0,0,0,0,0,0,1,1,2,0,"/>
+</data>
+<data  id="s9_c5_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s9_c5_data.txt_cell_1" spec="Sequence" taxon="1" value="0,0,0,0,2,2,2,2,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_2" spec="Sequence" taxon="2" value="2,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_3" spec="Sequence" taxon="3" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_4" spec="Sequence" taxon="4" value="0,0,0,0,0,0,0,0,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_5" spec="Sequence" taxon="5" value="0,0,0,0,0,0,0,2,2,0,"/>
+<sequence id="s9_c5_data.txt_cell_6" spec="Sequence" taxon="6" value="0,0,2,1,2,0,2,2,0,2,"/>
+<sequence id="s9_c5_data.txt_cell_7" spec="Sequence" taxon="7" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s9_c5_data.txt_cell_13" spec="Sequence" taxon="8" value="1,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_14" spec="Sequence" taxon="9" value="1,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_15" spec="Sequence" taxon="10" value="1,0,0,2,0,0,0,1,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_23" spec="Sequence" taxon="11" value="0,0,0,0,0,0,0,0,2,0,"/>
+<sequence id="s9_c5_data.txt_cell_24" spec="Sequence" taxon="12" value="0,0,0,0,0,0,0,2,1,0,"/>
+<sequence id="s9_c5_data.txt_cell_27" spec="Sequence" taxon="13" value="0,0,0,0,0,0,0,2,2,2,"/>
+<sequence id="s9_c5_data.txt_cell_28" spec="Sequence" taxon="14" value="2,0,2,1,2,2,0,2,0,0,"/>
+<sequence id="s9_c5_data.txt_cell_29" spec="Sequence" taxon="15" value="0,0,0,0,0,0,0,0,2,2,"/>
+<sequence id="s9_c5_data.txt_cell_30" spec="Sequence" taxon="16" value="1,0,2,2,2,2,2,2,2,2,"/>
+</data>
+<data  id="s9_c6_data.txt" spec="Alignment" name="alignment">
+                       <userDataType spec="beast.evolution.datatype.ScarData"
+                     nrOfStates="3" />
+<sequence id="s9_c6_data.txt_cell_2" spec="Sequence" taxon="1" value="1,0,2,2,2,0,0,2,1,0,"/>
+<sequence id="s9_c6_data.txt_cell_3" spec="Sequence" taxon="2" value="2,0,0,1,1,0,0,1,1,0,"/>
+<sequence id="s9_c6_data.txt_cell_4" spec="Sequence" taxon="3" value="2,0,0,1,1,0,0,1,1,0,"/>
+</data>

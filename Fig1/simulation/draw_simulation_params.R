@@ -1,0 +1,56 @@
+#!/usr/bin/env Rscript
+# This script should draw parameters for simulation from predefined distributions.
+# The resulting parameters will be saved in separate files
+
+## read in command line arguments
+args = commandArgs(trailingOnly=TRUE)
+if (length(args)<1) {
+  stop("At least the following arguments must be supplied: analysis seed", call.=FALSE)
+}
+
+## specify output location
+outputDir = "./simParams/"
+
+if (! dir.exists(outputDir)){
+  dir.create(outputDir)
+}
+
+
+seed = args[1]
+
+# 1. Substitution Model
+#raw scarring rates from Exponential distribution
+nScarringOutcomes = 50
+
+set.seed(seed)
+scarringRates = round(rexp(n = nScarringOutcomes, rate = 2), digits = 2)
+scarringRates[nScarringOutcomes] = 1 #set last scarringRate to 1. This will be fixed during the inference as well.
+
+clockRate = round(rlnorm(n = 1, meanlog = -7, sdlog = 0.5), digits = 5)
+
+#2, Phylodynamic Model
+# fix death rate to 0.4
+deathRate=0.4
+
+# birth rate
+m <- -0.6
+s <- 0.1
+
+## draw simulation parameters from log normal priors
+## following https://msalganik.wordpress.com/2017/01/21/making-sense-of-the-rlnorm-function-in-r/  to sample from
+birthRate = round(rlnorm(n = 1, meanlog = m, sdlog = s),digits = 3)
+
+# sampling proportion prior
+a <- 4
+b <- 8
+
+samplingProportion = round(rbeta(n = 1, shape1 =a, shape2 = b), digits = 2)
+
+data.frame(matrix(nrow = 1, ncol = nScarringOutcomes +4, data = 0))
+dataForFile = data.frame(matrix(nrow = 1, ncol = nScarringOutcomes +4, data = 0))
+colnames(dataForFile) = c(paste("scarringRate_", 1:nScarringOutcomes), "clockRate", "birthRate", "deathRate",
+                          "samplingProportion")
+
+dataForFile[1, ] = c(scarringRates, clockRate, birthRate, deathRate, samplingProportion)
+
+write.csv(x = dataForFile, file = paste0(outputDir, "simParams_", seed, ".csv"), quote = F, row.names = F)
