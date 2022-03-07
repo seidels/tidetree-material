@@ -1,6 +1,6 @@
 # TiDeTree: A Bayesian phylogenetic framework to estimate single-cell trees and population dynamic parameters from genetic lineage tracing data
 
-Sophie Seidel <sup>1,2</sup>, Tanja Stadler<sup>1,2</sup>
+Sophie Seidel<sup>1,2</sup>, Tanja Stadler<sup>1,2</sup>
 
 <sup>1</sup>ETH Zurich, Department of Biosystems Science and Engineering, 4058 Basel, Switzerland
 
