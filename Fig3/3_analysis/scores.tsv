@@ -1,0 +1,4 @@
+analysis	mean_rf	mean_triplet
+1clock_2scars/	0.56	0.57
+1clock_20scars/	0.55	0.55
+10clocks_20scars/	0.55	0.55
