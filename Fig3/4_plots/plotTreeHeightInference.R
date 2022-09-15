@@ -14,9 +14,11 @@ recovered = function(true, upper, lower){
 
 # true tree data
 load(file = "../1_preprocessing/treeDat.Rdat")
+dat$colony = paste0(dat$colony, ".txt")
 
 # load inference data from setup where scarring start varies
-logFile = "../2_inference/inference_logs/priorInfoOnScarring/all_trees_rho_origin_reparScarClock_treeInit25_PriorOnScarringRatesI_scarringStart_clock_ExpPriorScarringStart_combined.log"
+#logFile = "../2_inference/inference_logs/priorInfoOnScarring/all_trees_rho_origin_reparScarClock_treeInit25_PriorOnScarringRatesI_scarringStart_clock_ExpPriorScarringStart_combined.log"
+logFile = "../2_inference/inference_logs/unsupervised_siteDep/all_trees_rho_origin_dreamChallengeRange.combined.log"
 log = read.delim(logFile)
 
 # compute posterior stats for tree heights
