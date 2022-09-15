@@ -76,19 +76,16 @@ files = list.files(resultsDir, pattern = "*.log")
 for (ctr in 1:1000){
      # get log file and its simulation seed
     print(ctr)
-    #exclude tree with >15000 leafs
-    if(ctr == 874){
-    next()
-    }
-    #file = files[ctr]
-    #seed = get_seed_from_file_name(file)
+    
+    file = files[ctr]
+    seed = get_seed_from_file_name(file)
 
-    seed = ctr  
+    #seed = ctr  
     # parse beast log and save summary stats in output data frame
-    # log =  parse_beast_tracelog_file(paste(resultsDir, file, sep = "/"))
-    # log[, c(8:57)] = log[, c(8:57)] * log[, 62] # multiply scarring rates with clock rate
-    # outputDat[ctr, 1:(nParams*3)] = get_summary_stats_from_log(log,parameter_col_index_map =parameter_col_index_map)
-    # outputDat[ctr, "seed"] = seed
+    log =  parse_beast_tracelog_file(paste(resultsDir, file, sep = "/"))
+    log[, c(8:57)] = log[, c(8:57)] * log[, 62] # multiply scarring rates with clock rate
+    outputDat[ctr, 1:(nParams*3)] = get_summary_stats_from_log(log,parameter_col_index_map =parameter_col_index_map)
+    outputDat[ctr, "seed"] = seed
     
     # parse simulation files and save true simulation params in simParams data frame
   simFile =  paste0(simulationDir, "simParams_", seed, ".csv" ) #simFiles[f]
@@ -107,6 +104,7 @@ for (ctr in 1:1000){
 outputDat = outputDat[order(as.numeric(outputDat$seed)), ]
 outputDat$seed = as.numeric(outputDat$seed)
 simParams = simParams[order(as.numeric(simParams$seed)), ]
+simParams$seed = as.numeric(simParams$seed)
 
 save(outputDat, file = paste(resultsDir, thisAnalysis, ".Rdat", sep = ""))
 simParams[, 6:55] = simParams[, 6:55] * simParams[, 56] # multiply scarring rates with clock rate
@@ -120,7 +118,7 @@ load(file = paste(resultsDir, thisAnalysis, "_simParams.Rdat", sep = ""))
 ```
 
 ```{r}
-exclude_seeds = c()
+exclude_seeds = c(253, 719) # with nCells >700
 outputDat_cleaned = outputDat[which(!(outputDat$seed %in% exclude_seeds)), ]
 simParams_cleaned = simParams[which(!(simParams$seed %in% exclude_seeds)), ]
 simParams_cleaned = simParams_cleaned[which(simParams_cleaned$seed %in% outputDat_cleaned$seed), ]
@@ -171,16 +169,21 @@ ggplot(simParams, aes(x=nCells))+ geom_histogram() + xlim(0,1000)
 
 # Bias
 
-
-
 ```{r}
-bias_all = get_bias_from_dat(outputDat = outputDat_cleaned, simParams = simParams_cleaned, parameters = parameters)
+bias_all = get_bias_from_dat(outputDat = outputDat_cleaned, 
+                             simParams = simParams_cleaned, 
+                             parameters = parameters)
+bias_all$seed = outputDat_cleaned$seed
+bias_all$nCells = simParams_cleaned$nCells
+saveRDS(bias_all, file = paste0(metricDir, "biasDat.Rds"))
+
 n = nrow(outputDat_cleaned)
 meanbias = apply(X = bias_all, MARGIN = 2, function(x){mean(x)})
 sdbias = apply(X = bias_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
 
 saveRDS(rbind(meanbias, sdbias), file = paste0(metricDir, "bias_all.Rds"))
 ```
+
 
 
 ```{r}
@@ -198,9 +201,11 @@ saveRDS(rbind(meanbias_f100, sdbias_f100), file = paste0(metricDir, "bias.Rds"))
 #RMSE
 
 
-
 ```{r}
 rmse_all = get_rmse_from_dat(outputDat = outputDat_cleaned, simParams = simParams_cleaned, parameters = parameters)
+rmse_all$seed = outputDat_cleaned$seed
+rmse_all$nCells = simParams_cleaned$nCells
+saveRDS(rmse_all, file = paste0(metricDir, "rmseDat.Rds"))
 
 meanrmse = apply(X = rmse_all, MARGIN = 2, function(x){mean(x)})
 sdrmse = apply(X = rmse_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
@@ -215,12 +220,18 @@ sdrmse_f100 = apply(X = rmse_first100, MARGIN = 2, function(x){sd(x)/sqrt(n_f100
 saveRDS(rbind(meanrmse_f100, sdrmse_f100), file = paste0(metricDir, "rmse.Rds"))
 ```
 
+
+
 #HPD
 
 
 
 ```{r}
 hpd_all = get_hpd_from_dat(outputDat_cleaned, simParams_cleaned, parameters)
+hpd_all$seed = outputDat_cleaned$seed
+hpd_all$nCells = simParams_cleaned$nCells
+saveRDS(hpd_all, file = paste0(metricDir, "hpdDat.Rds"))
+
 meanhpd = apply(X = hpd_all, MARGIN = 2, function(x){mean(x)})
 sdhpd = apply(X = hpd_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
 saveRDS(rbind(meanhpd, sdhpd), file = paste0(metricDir, "hpd_all.Rds"))
@@ -233,9 +244,9 @@ sdhpd_f100 = apply(X = hpd_first100, MARGIN = 2, function(x){sd(x)/sqrt(n_f100)}
 saveRDS(rbind(meanhpd_f100, sdhpd_f100), file = paste0(metricDir, "hpd.Rds"))
 ```
 
+
+
 # Coverage
-
-
 
 ```{r}
 coverage_all = get_coverage_from_dat(outputDat_cleaned, simParams_cleaned, parameters)
@@ -243,6 +254,7 @@ meancov = apply(X = coverage_all, MARGIN = 2, function(x){mean(x)})
 sdcov = apply(X = coverage_all, MARGIN = 2, function(x){sd(x)/sqrt(n)})
 saveRDS(rbind(meancov, sdcov), file = paste0(metricDir, "coverage_all.Rds"))
 ```
+
 
 ```{r}
 coverage_first100 = get_coverage_from_dat(outputDat_first100, simParams_first100, parameters)
